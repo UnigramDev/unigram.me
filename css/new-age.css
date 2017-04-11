@@ -15,9 +15,9 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #fdcc52; }
+  color: #0078d7; }
   a:hover, a:focus {
-    color: #fcbd20; }
+    color: #0078d7; }
 
 hr {
   max-width: 100px;
