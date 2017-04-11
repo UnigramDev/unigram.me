@@ -66,9 +66,6 @@ img::-moz-selection {
   color: white;
   background: transparent; }
 
-body {
-  -webkit-tap-highlight-color: #222222; }
-
 #mainNav {
   background-color: #0078d7;
   border-color: rgba(34, 34, 34, 0.05);
@@ -88,7 +85,8 @@ body {
   #mainNav .navbar-toggler {
     font-size: 12px;
     color: white;
-    padding: 8px 10px; }
+    padding: 8px 10px;
+    border-color: rgba(255, 255, 255, 0.7); }
   #mainNav .navbar-nav > li > a {
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
     text-transform: uppercase;
@@ -162,8 +160,6 @@ header.masthead {
   header.masthead .device-container {
     max-width: 300px;
     margin: 0 auto 100px; }
-    header.masthead .device-container .screen img {
-      border-radius: 3px; }
   @media (min-width: 768px) {
     header.masthead {
       min-height: 100%; }
@@ -337,9 +333,9 @@ footer {
   border-color: white;
   border: 1px solid; }
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
-    color: white;
-    background-color: #fdcc52;
-    border-color: #fdcc52; }
+    color: #0078d7;
+    background-color: white;
+    border-color: white; }
 
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
