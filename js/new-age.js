@@ -35,4 +35,10 @@
         }
     });
 
+    $('.carousel').carousel({
+        interval: 1500
+    })
+
+    $('.carousel').carousel('cycle');
+
 })(jQuery); // End of use strict
