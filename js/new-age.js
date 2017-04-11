@@ -35,10 +35,15 @@
         }
     });
 
+    // Slide of screenshots
     $('.carousel').carousel({
         interval: 2800
     })
-
     $('.carousel').carousel('cycle');
+
+    // Github button
+    $( "#github-check" ).click(function() {
+       window.location.href = "https://github.com/UnigramDev/Unigram";
+    });
 
 })(jQuery); // End of use strict
