@@ -346,3 +346,15 @@ footer {
 .btn-xl {
   padding: 15px 45px;
   font-size: 11px; }
+
+  .carousel, .slide {
+    height: 100%;
+  }
+
+  .carousel-inner {
+    height: 100%;
+  }
+
+  .carousel-item, .active {
+    height: 100%;
+  }
