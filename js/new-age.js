@@ -36,7 +36,7 @@
     });
 
     $('.carousel').carousel({
-        interval: 1500
+        interval: 2800
     })
 
     $('.carousel').carousel('cycle');
