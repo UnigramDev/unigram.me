@@ -397,8 +397,16 @@ footer {
   margin-bottom: 0px;
 }
 
-.fa:hover {
+.team-member .fa:hover {
     opacity: 0.7;
+}
+
+.team-member a:hover{
+  color: white;
+}
+
+.team-member a:visited{
+  color: white;
 }
 
 .fa-facebook {
