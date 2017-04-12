@@ -255,7 +255,7 @@ section.team{
 
 .team-member{
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 40px;
 }
 
 .team-member img{
@@ -391,6 +391,10 @@ footer {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+}
+
+.team-member p{
+  margin-bottom: 0px;
 }
 
 .fa:hover {
