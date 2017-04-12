@@ -12,6 +12,7 @@
  *  Device:
  *   - Microsoft Lumia 950
  *   - Microsoft Surface
+ *   - HP Elite X3
  *
  */
 
@@ -69,7 +70,7 @@
 	background-image: url("lumia950/lumia950_dark_port.png");
 }
 .device-mockup.lumia950.landscape > .device {
-	background-image: url("lumia920/lumia950_dark_land.png");
+	background-image: url("lumia950/lumia950_dark_land.png");
 }
 
 .device-mockup.lumia950 > .device > .screen,
@@ -77,6 +78,31 @@
 	top: 11.8%; bottom: 8%; left: 6%; right: 6%;
 }
 .device-mockup.lumia950.landscape > .device > .screen {
+	top: 12.2641509%; bottom: 12.2641509%; left: 10.5403012%; right: 18.6005314%;
+}
+
+/* Elite X3 */
+.device-mockup.eliteX3
+.device-mockup.eliteX3.portrait {
+	padding-bottom: 100.796353%;
+}
+
+.device-mockup.eliteX3.landscape {
+	padding-bottom: 56.3330381%;
+}
+.device-mockup.eliteX3 > .device,
+.device-mockup.eliteX3.portrait > .device {
+	background-image: url("eliteX3/eliteX3_port.png");
+}
+.device-mockup.eliteX3.landscape > .device {
+	background-image: url("eliteX3/eliteX3_land.png");
+}
+
+.device-mockup.eliteX3 > .device > .screen,
+.device-mockup.eliteX3.portrait > .device > .screen {
+	top: 9%; bottom: 6.98%; left: 3.45%; right: 4.4%;
+}
+.device-mockup.eliteX3.landscape > .device > .screen {
 	top: 12.2641509%; bottom: 12.2641509%; left: 10.5403012%; right: 18.6005314%;
 }
 
