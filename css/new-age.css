@@ -240,6 +240,21 @@ section.features .feature-item {
   section.features .feature-item {
     max-width: none; } }
 
+section.team{
+  background: lightgray;
+}
+
+.team-member{
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.team-member img{
+  margin-bottom: 16px;
+  width: 128px;
+  height: 128px;
+}
+
 section.cta {
   position: relative;
   -webkit-background-size: cover;
