@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 
 <head>
 
@@ -8,6 +8,32 @@
     <meta name="description" content="Unigram for Windows 10">
     <meta name="keywords" content="Unigram, Windows, UWP, Universal, Mobile, Xbox, Telegram, App">
     <meta name="author" content="Matei Radu">
+
+    <!-- Real Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0f7dc7">
+    <meta name="theme-color" content="#0f7dc7">
+
+    <!-- Facebook card -->
+    <meta property="og:title" content="Unigram">
+    <meta property="og:description" content="The Telegram client for Windows 10">
+    <meta property="og:image" content="https://unigramdev.github.io/img/meta/facebook/banner.jpg">
+    <meta property="og:url" content="https://unigramdev.github.io/index.html">
+    <meta property="og:site_name" content="Unigram"/>
+
+    <!-- VK card -->
+    <meta name="title" content="Unigram" />
+    <link rel="image_src" href="https://unigramdev.github.io/img/meta/facebook/banner.jpg"/>
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@UnigramApp" />
+    <meta name="twitter:title" content="Unigram" />
+    <meta name="twitter:description" content="The Telegram client for Windows 10" />
+    <meta name="twitter:image" content="https://unigramdev.github.io/img/meta/twitter/logo.jpg" />
 
     <title>Unigram</title>
 
@@ -55,10 +81,10 @@
             <div class="collapse navbar-collapse" id="navbarExample">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#download">Download</a>
+                        <a class="nav-link" href="#features">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#features">Features</a>
+                        <a class="nav-link" href="#download">Download</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#team">The Team</a>
@@ -101,26 +127,6 @@
         </div>
     </header>
 
-    <section class="download bg-primary text-center" id="download">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 offset-md-2">
-                    <h2 class="section-heading">Discover what all the buzz is about!</h2>
-                    <p>Our app is available on any Windows 10 device - Mobile, Desktop, Xbox!</p>
-                    <div class="badges">
-                        <a class="badge-link" href="https://www.microsoft.com/store/apps/9n97zckpd60q?ocid=badge"><img src="https://assets.windowsphone.com/f2f77ec7-9ba9-4850-9ebe-77e366d08adc/English_Get_it_Win_10_InvariantCulture_Default.png" alt="Get it on Windows 10" /></a>
-                    </div>
-                    <br>
-                    <p>Practical with development? Dive in the source code.</p>
-                    <div class="badges">
-                        <!-- Place this tag where you want the button to render. -->
-                        <button id="github-check" class="btn-si btn-github">Check it on GitHub </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="features" id="features">
         <div class="container">
             <div class="section-heading text-center">
@@ -131,7 +137,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="device-container">
-                        <div class="device-mockup lumia950 portrait">
+                        <div class="device-mockup eliteX3 portrait">
                             <div class="device">
                                 <div class="screen">
                                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -200,6 +206,26 @@
         </div>
     </section>
 
+    <section class="download bg-primary text-center" id="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <h2 class="section-heading">Discover what all the buzz is about!</h2>
+                    <p>Our app is available on any Windows 10 device - Mobile, Desktop, Xbox!</p>
+                    <div class="badges">
+                        <a class="badge-link" href="https://www.microsoft.com/store/apps/9n97zckpd60q?ocid=badge"><img src="https://assets.windowsphone.com/f2f77ec7-9ba9-4850-9ebe-77e366d08adc/English_Get_it_Win_10_InvariantCulture_Default.png" alt="Get it on Windows 10" /></a>
+                    </div>
+                    <br>
+                    <p>Practical with development? Dive in the source code.</p>
+                    <div class="badges">
+                        <!-- Place this tag where you want the button to render. -->
+                        <button id="github-check" class="btn-si btn-github">Check it on GitHub </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="team" id="team">
         <div class="container">
             <div class="section-heading text-center">
@@ -213,42 +239,42 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="team-member">
-                                <img src="https://pbs.twimg.com/profile_images/805174471938240512/74TN5bte_400x400.jpg" class="rounded-circle" alt="Rick Drijvers">
+                                <img src="img/team/rick.jpg" class="rounded-circle" alt="Rick Drijvers">
                                 <h3>Rick Drijvers</h3>
                                 <p class="text-muted">Project founder, core developer</p>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="team-member">
-                                <img src="https://pbs.twimg.com/profile_images/792272976766984192/tkmU_9m1_400x400.jpg" class="rounded-circle" alt="Fela Ameghino">
+                                <img src="img/team/fela.jpg" class="rounded-circle" alt="Fela Ameghino">
                                 <h3>Fela Ameghino</h3>
                                 <p class="text-muted">Seasoned core developer</p>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="team-member">
-                                <img src="https://pbs.twimg.com/profile_images/461030876520796160/lFK2h0xi_400x400.jpeg" class="rounded-circle" alt="Kesava Prasad Arul">
+                                <img src="img/team/kesava.jpg" class="rounded-circle" alt="Kesava Prasad Arul">
                                 <h3>Kesava Prasad Arul</h3>
                                 <p class="text-muted">Core developer</p>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="team-member">
-                                <img src="https://pbs.twimg.com/profile_images/851497566172659716/7h4hx6Vj_400x400.jpg" class="rounded-circle" alt="Saurav Srivastava">
+                                <img src="img/team/saurav.jpg" class="rounded-circle" alt="Saurav Srivastava">
                                 <h3>Saurav Srivastava</h3>
                                 <p class="text-muted">UI/UX engineer</p>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="team-member">
-                                <img src="https://pbs.twimg.com/profile_images/812641726078783492/aqPunoYH.jpg" class="rounded-circle" alt="Matei Radu">
+                                <img src="img/team/matei.jpg" class="rounded-circle" alt="Matei Radu">
                                 <h3>Matei Radu</h3>
                                 <p class="text-muted">Core developer, Website coordinator</p>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="team-member">
-                                <img src="https://pbs.twimg.com/profile_images/668226887760543744/gP0rdR0k_400x400.png" class="rounded-circle" alt="Abdel Daoudi">
+                                <img src="img/team/abdel.jpg" class="rounded-circle" alt="Abdel Daoudi">
                                 <h3>Abdel Daoudi</h3>
                                 <p class="text-muted">Core developer</p>
                             </div>

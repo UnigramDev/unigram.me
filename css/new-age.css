@@ -86,6 +86,7 @@ img::-moz-selection {
     font-size: 12px;
     color: white;
     padding: 8px 10px;
+    margin-top: 4px;
     border-color: rgba(255, 255, 255, 0.7); }
   #mainNav .navbar-nav > li > a {
     font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
@@ -103,6 +104,10 @@ img::-moz-selection {
     #mainNav .navbar-nav > li > a:hover,
     #mainNav .navbar-nav > li > a:focus:hover {
       color: rgba(255, 255, 255, 0.7); }
+
+      #mainNav .navbar-nav .nav-item a{
+        font-size: 0.9em;
+      }
   @media (min-width: 992px) {
     #mainNav {
       background-color: transparent;
@@ -129,7 +134,11 @@ img::-moz-selection {
           color: #222222; }
           #mainNav.navbar-shrink .navbar-nav > li > a:hover,
           #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-            color: white; } }
+            color: white; } 
+            
+      #mainNav .navbar-nav .nav-item a{
+        font-size: 0.8em;
+      }}
 
 header.masthead {
   position: relative;
