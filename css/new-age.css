@@ -525,3 +525,11 @@ footer {
   background: #ff6600;
   color: white;
 }
+
+.list-inline li{
+  margin-bottom: 12px;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0px;
+}

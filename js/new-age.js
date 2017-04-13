@@ -46,4 +46,14 @@
        window.location.href = "https://github.com/UnigramDev/Unigram";
     });
 
+    // Twitter button
+    $( "#unigram-twitter" ).click(function() {
+       window.location.href = "https://twitter.com/UnigramApp";
+    });
+
+    // Insiders button
+    $( "#unigram-insiders" ).click(function() {
+       window.location.href = "https://t.me/joinchat/AAAAAD851oqVwhp9oy9WbQ";
+    });
+
 })(jQuery); // End of use strict

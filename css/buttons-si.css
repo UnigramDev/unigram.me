@@ -1,5 +1,8 @@
 /* Social Buttons Style */
 .btn-si {
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 218px;
   background-position: 1em;
   background-repeat: no-repeat;
   background-size: 2em;
@@ -85,6 +88,15 @@
     background-color: #73cd35; }
   .btn-evernote:active {
     background-color: #457d1f; }
+
+.btn-unigram {
+  background-color: #0088cc;
+  background-image: url("../img/unigram.png"); }
+  .btn-unigram:hover {
+    background-color: #00aced; }
+  .btn-unigram:active {
+    background-color: #769a26; }
+
 
 .btn-dropbox {
   background-color: #1b73d1;
