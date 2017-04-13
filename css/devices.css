@@ -30,7 +30,7 @@
 		width: 100%; height: 100%;
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
-		background-image: url("lumia950/lumia950_dark_port.png");
+		background-image: url("../img/devices/lumia950/lumia950_dark_port.png");
 	}
 
 		.device-mockup > .device > .screen {
@@ -67,10 +67,10 @@
 }
 .device-mockup.lumia950 > .device,
 .device-mockup.lumia950.portrait > .device {
-	background-image: url("lumia950/lumia950_dark_port.png");
+	background-image: url("../img/devices/lumia950/lumia950_dark_port.png");
 }
 .device-mockup.lumia950.landscape > .device {
-	background-image: url("lumia950/lumia950_dark_land.png");
+	background-image: url("../img/devices/lumia950/lumia950_dark_land.png");
 }
 
 .device-mockup.lumia950 > .device > .screen,
@@ -92,10 +92,10 @@
 }
 .device-mockup.eliteX3 > .device,
 .device-mockup.eliteX3.portrait > .device {
-	background-image: url("eliteX3/eliteX3_port.png");
+	background-image: url("../img/devices/eliteX3/eliteX3_port.png");
 }
 .device-mockup.eliteX3.landscape > .device {
-	background-image: url("eliteX3/eliteX3_land.png");
+	background-image: url("../img/devices/eliteX3/eliteX3_land.png");
 }
 
 .device-mockup.eliteX3 > .device > .screen,
@@ -114,7 +114,7 @@
 
 .device-mockup.surface > .device,
 .device-mockup.surface.landscape > .device {
-	background-image: url("surface/surface.png");
+	background-image: url("../img/devices/surface/surface.png");
 }
 
 .device-mockup.surface > .device > .screen,

@@ -533,3 +533,14 @@ footer {
 .list-inline-item:not(:last-child) {
   margin-right: 0px;
 }
+
+/* Temporary navbar container fix */
+.navbar-toggler {
+        z-index: 1;
+}
+    
+@media (max-width: 576px) {
+    nav > .container {
+        width: 100%;
+    }
+}
