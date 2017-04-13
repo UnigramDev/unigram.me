@@ -27,7 +27,7 @@
 
 .btn-facebook {
   background-color: #3b5998;
-  background-image: url("../img/facebook.svg"); }
+  background-image: url("../img/buttons/facebook.svg"); }
   .btn-facebook:hover {
     background-color: #4c70ba; }
   .btn-facebook:active {
@@ -35,7 +35,7 @@
 
 .btn-twitter {
   background-color: #00aced;
-  background-image: url("../img/twitter.svg"); }
+  background-image: url("../img/buttons/twitter.svg"); }
   .btn-twitter:hover {
     background-color: #21c2ff; }
   .btn-twitter:active {
@@ -43,7 +43,7 @@
 
 .btn-microsoft {
   background-color: #e3b30d;
-  background-image: url("../img/microsoft.svg"); }
+  background-image: url("../img/buttons/microsoft.svg"); }
   .btn-microsoft:hover {
     background-color: #f3c730; }
   .btn-microsoft:active {
@@ -51,7 +51,7 @@
 
 .btn-github {
   background-color: #222222;
-  background-image: url("../img/github.svg"); }
+  background-image: url("../img/buttons/github.svg"); }
   .btn-github:hover {
     background-color: #444; }
   .btn-github:active {
@@ -59,7 +59,7 @@
 
 .btn-unigram {
   background-color: #0088cc;
-  background-image: url("../img/unigram.png"); }
+  background-image: url("../img/buttons/unigram.png"); }
   .btn-unigram:hover {
     background-color: #00aced; }
   .btn-unigram:active {
