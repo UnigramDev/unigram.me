@@ -15,9 +15,9 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #0078d7; }
+  color: #0f7dc7; }
   a:hover, a:focus {
-    color: #0078d7; }
+    color: #0f7dc7; }
 
 hr {
   max-width: 100px;
@@ -75,7 +75,7 @@ img::-moz-selection {
 /* Navigation section */
 
 #mainNav {
-  background-color: #0078d7;
+  background-color: #0f7dc7;
   border-color: rgba(34, 34, 34, 0.05);
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -121,7 +121,7 @@ img::-moz-selection {
       background-color: transparent;
       border-color: transparent; }
       #mainNav .navbar-brand {
-        color: fade(#0078d7, 70%); }
+        color: fade(#0f7dc7, 70%); }
         #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
           color: white; }
       #mainNav .navbar-nav > li > a,
@@ -131,7 +131,7 @@ img::-moz-selection {
         #mainNav .navbar-nav > li > a:focus:hover {
           color: white; }
       #mainNav.navbar-shrink {
-        background-color: #0078d7;
+        background-color: #0f7dc7;
         border-color: rgba(34, 34, 34, 0.1); }
         #mainNav.navbar-shrink .navbar-brand {
           color: rgba(255, 255, 255, 0.7); }
@@ -161,9 +161,9 @@ header.masthead {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), #0078d7;
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #0078d7, #0078d7);
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #0078d7, #0078d7);
+  background: url("../img/bg-pattern.png"), #0f7dc7;
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #0f7dc7, #0f7dc7);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #0f7dc7, #0f7dc7);
   color: white; }
   header.masthead .header-content {
     text-align: center;
@@ -245,6 +245,20 @@ section.features .feature-item {
   section.features .device-container,
   section.features .feature-item {
     max-width: none; } }
+
+.bg-rocket {
+  position: absolute;
+  padding-left: 0px;
+  padding-right: 24px;
+  height: 100%;
+  width: 100%; }
+  @media (min-width: 992px) {
+    .bg-rocket {
+    position: absolute;
+    padding-left: 64px;
+    padding-right: 86px;
+    height: 100%;
+    width: 100%; }}
 
 /* Download section */
 
@@ -341,7 +355,7 @@ footer {
   border-color: white;
   border: 1px solid; }
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
-    color: #0078d7;
+    color: #0f7dc7;
     background-color: white;
     border-color: white; }
 
