@@ -325,13 +325,8 @@ section.contact {
       color: #dd4b39; }
   section.contact ul.list-social {
     margin-bottom: 0; }
-  /* Fix for contact buttons */
-  .list-inline li{
-    margin-bottom: 12px; }
-  .list-inline-item:not(:last-child) {
-    margin-right: 0px; }
-    .list-inline-item .btn-si {
-    width: 230px; }
+  .contact-buttons button{
+      margin-bottom: 12px; }
 
 /* Other components */
 
