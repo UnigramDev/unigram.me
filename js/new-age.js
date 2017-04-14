@@ -37,7 +37,7 @@
 
     // Slide of screenshots
     $('.carousel').carousel({
-        interval: 2800
+        interval: 3500
     })
     $('.carousel').carousel('cycle');
 
