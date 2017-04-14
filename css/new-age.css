@@ -330,6 +330,8 @@ section.contact {
     margin-bottom: 12px; }
   .list-inline-item:not(:last-child) {
     margin-right: 0px; }
+    .list-inline-item .btn-si {
+    width: 230px; }
 
 /* Other components */
 
