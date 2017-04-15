@@ -12,7 +12,14 @@ Landing page for [Unigram](https://github.com/UnigramDev/Unigram). It gives an o
 ## Contributing
 The addition of new sections and features is reserved to the Unigram Development Team, however bug and performance related contributions are warmly welcome.
 
-Open a [new issue](https://github.com/UnigramDev/unigramdev.github.io/issues/new) or if you prefer fork the repository and use a feature branch.
+Open a [new issue](https://github.com/UnigramDev/unigramdev.github.io/issues/new) or if you prefer fork the repository and use a feature branch. All HTML and CSS should conform to the [Code Guide](http://codeguide.co/), maintained by [Mark Otto](https://github.com/mdo).
+
+## Creators
+**Matei Radu**
+
+- <https://github.com/mateiradu>
+- <https://twitter.com/matei_dev>
+- <https://www.linkedin.com/in/mateibogdanradu/>
 
 ## Credits
 - [Blackrock Digital](https://github.com/BlackrockDigital) for the [New Age Bootstrap theme](http://startbootstrap.com/template-overviews/new-age/).
