@@ -1,4 +1,4 @@
-<div style="text-align:center; background-color: #0F7DC8;"><img src="https://github.com/UnigramDev/unigramdev.github.io/raw/master/img/github/banner.jpg" width="50%"/></div>
+<p align="center" bgcolor="#0F7DC8"><img src="https://github.com/UnigramDev/unigramdev.github.io/raw/master/img/github/banner.jpg" width="50%"/></p>
 
 # Official Unigram website
 [![](https://img.shields.io/badge/Bootstrap-v4.0.0--alpha.6-yellow.svg?colorB=563d7c)](https://v4-alpha.getbootstrap.com/) [![](https://img.shields.io/badge/W3C%20Validator-Pass-green.svg)](https://validator.w3.org/nu/?doc=http%3A%2F%2Funigram.me%2F)
@@ -7,7 +7,7 @@ Landing page for [Unigram](https://github.com/UnigramDev/Unigram). It gives an o
 
 ## Features
 - Adaptive design that works on both small and large devices.
-- Social sharing metadata for sharing cards. 
+- Social sharing metadata for sharing cards.  
 
 ## Contributing
 The addition of new sections and features is reserved to the Unigram Development Team, however bug and performance related contributions are warmly welcome.
