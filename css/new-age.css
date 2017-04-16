@@ -400,7 +400,7 @@ section.download h2 {
 }
 
 section.download .badges .badge-link {
-  display: block;
+  display: inline-flex;
   margin-bottom: 25px;
 }
 
@@ -500,7 +500,8 @@ section.contact ul.list-social {
   margin-bottom: 0;
 }
   
-.contact-buttons button{
+.contact-buttons a{
+  display: inline-flex;
   margin-bottom: 12px;
 }
 
