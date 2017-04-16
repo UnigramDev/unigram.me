@@ -1,5 +1,6 @@
 /* Social Buttons Style */
 .btn-si {
+  display: inline-block;
   margin-left: 3px;
   margin-right: 3px;
   background-position: 1em;
@@ -11,13 +12,14 @@
   cursor: pointer;
   font-size: 1em;
   height: 4em;
+  vertical-align: middle;
   line-height: 1em;
   padding: 0 2em 0 4em;
   text-decoration: none;
   transition: all 0.5s; }
 
 .btn-si-a {
-  padding: 23px 32px 23px 65px !important;
+  padding: 1.5em 32px 1.5em 3.8em !important;
   font-family: arial;
   white-space: nowrap;
 }
