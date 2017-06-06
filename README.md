@@ -21,7 +21,6 @@ Open a [new issue](https://github.com/UnigramDev/unigramdev.github.io/issues/new
 
 - <https://github.com/mateiradu>
 - <https://twitter.com/matei_dev>
-- <https://www.linkedin.com/in/mateibogdanradu/>
 
 ## Credits
 - [Blackrock Digital](https://github.com/BlackrockDigital) for the [New Age Bootstrap theme](http://startbootstrap.com/template-overviews/new-age/).
