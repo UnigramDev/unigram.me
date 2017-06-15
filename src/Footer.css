@@ -1,41 +1,43 @@
+/*
+ * Unigram Website
+ * Copyright © 2016-2017 Unigram <team@unigram.me>
+ * Licensed under MIT 
+ * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
+ */
 .footer-root {
-    padding-top: 32px;
-    padding-bottom: 28px;
-    color: #626262;
-    font-size: 12px;
-    background-color: #F2F2F2;
+  padding-top: 32px;
+  padding-bottom: 28px;
+  color: #626262;
+  font-size: 12px;
+  background-color: #F2F2F2;
+}
+
+.footer-root a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-root a:hover {
+  color: #111111;
+  text-decoration: underline;
 }
 
 .footer-group {
   padding-bottom: 24px;
 }
 
-.footer-group ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.footer-group a {
-    line-height: 24px;
-    text-decoration: none;
-    color: inherit;
-}
-
-.footer-group a:hover {
-  text-decoration: underline;
-  color: #111111;
-}
-
-
-
 .footer-group-header {
-  font-size: 15px;
   margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.footer-group ul {
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+  list-style-type: none;
 }
 
 .footer-license {
-    display: block;
-    margin-top: 20px;
-    text-align: right;
+  margin-top: 20px;
 }
