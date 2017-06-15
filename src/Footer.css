@@ -1,0 +1,37 @@
+.footer-root {
+    padding-top: 32px;
+    padding-bottom: 28px;
+    color: #626262;
+    font-size: 12px;
+    background-color: #F2F2F2;
+}
+
+.footer-group ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-group a {
+    line-height: 24px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-group a:hover {
+  text-decoration: underline;
+  color: #111111;
+}
+
+
+
+.footer-group-header {
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.footer-license {
+    display: block;
+    margin-top: 20px;
+    text-align: right;
+}

@@ -82,6 +82,7 @@ p {
 .jumbotron {
   margin-top: 48px;
   background: url("http://api.thumbr.it/whitenoise-768x500.png?background=d6d6d6ff&noise=a8a6a8&density=37&opacity=17");
+  margin-bottom: 0;
 }
 
 .jumbotron p {
