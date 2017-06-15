@@ -30,17 +30,12 @@ class Navigation extends Component {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#team">
-                    <i className="mdl2 mdl2-people" aria-hidden="true"></i>Team
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="https://github.com/UnigramDev/Unigram">
-                    <i className="mdl2 mdl2-document" aria-hidden="true"></i>Source code
+                    <i className="mdl2 mdl2-people" aria-hidden="true"></i>Community
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#contact">
-                    <i className="mdl2 mdl2-accounts" aria-hidden="true"></i>Contact
+                    <i className="mdl2 mdl2-accounts" aria-hidden="true"></i>Support
                   </a>
                 </li>
               </ul>
