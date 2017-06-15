@@ -7,28 +7,28 @@ class Footer extends Component {
       <div className="footer-root">
         <div className="container">
           <div className="row">
-            <div className="footer-group col-3">
+            <div className="footer-group col-xs-12 col-sm-6 col-md-3">
               <div className="footer-group-header">Social</div>
               <ul>
                 <li><a href="">Facebook</a></li>
                 <li><a href="">Twitter</a></li>
               </ul>
             </div>
-            <div className="footer-group col-3">
+            <div className="footer-group col-xs-12 col-sm-6 col-md-3">
               <div className="footer-group-header">Help</div>
               <ul>
                 <li><a href="">Support</a></li>
                 <li><a href="">FAQ</a></li>
               </ul>
             </div>
-            <div className="footer-group col-3">
+            <div className="footer-group col-xs-12 col-sm-6 col-md-3">
               <div className="footer-group-header">Resources</div>
               <ul>
                 <li><a href="">GitHub</a></li>
                 <li><a href="">Behanced</a></li>
               </ul>
             </div>
-            <div className="footer-group col-3">
+            <div className="footer-group col-xs-12 col-sm-6 col-md-3">
               <div className="footer-group-header">Values</div>
               <ul>
                 <li><a href="">Privacy Policy</a></li>
