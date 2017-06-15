@@ -25,12 +25,14 @@ class Footer extends Component {
               <ul>
                 <li><a href="#">Support</a></li>
                 <li><a href="#">FAQ</a></li>
+                <li><a href="#">User Manual</a></li>
               </ul>
             </div>
             <div className="footer-group col-xs-12 col-sm-6 col-md-3">
               <div className="footer-group-header">Resources</div>
               <ul>
                 <li><a href="https://github.com/UnigramDev">GitHub</a></li>
+                <li><a href="#">Developer Manual</a></li>
                 <li><a href="https://www.behance.net/gallery/37507573/Unigram-for-Windows-10-Mobile">Behanced</a></li>
               </ul>
             </div>

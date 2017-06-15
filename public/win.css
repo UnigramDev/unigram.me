@@ -79,10 +79,18 @@ p {
     color: var(--main-color);
 }
 
+@media (max-width: 992px) {
+  .jumbotron-wrapper {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .jumbotron {
   margin-top: 48px;
   background: url("http://api.thumbr.it/whitenoise-768x500.png?background=d6d6d6ff&noise=a8a6a8&density=37&opacity=17");
-  margin-bottom: 500px;
+  border-radius: 0;
 }
 
 .jumbotron p {
