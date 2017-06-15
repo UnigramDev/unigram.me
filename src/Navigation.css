@@ -1,0 +1,82 @@
+/*
+ * Unigram Website
+ * Copyright © 2016-2017 Unigram <team@unigram.me>
+ * Licensed under MIT 
+ * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
+ */
+ #main-nav {
+  height: 48px;
+  background-color: var(--main-color);
+}
+
+.navbar-brand {
+  margin-right: 36px;
+  padding-top: 0px;
+  color: white;
+}
+
+.navbar-brand img {
+  width: 24px;
+  margin-right: 8px;
+}
+
+.nav-link {
+  color: white;
+}
+
+@media (min-width: 992px){
+  .navbar-toggleable-md .navbar-collapse {
+    width: auto;
+  }
+  .nav-item {
+    margin-right: 8px;
+    font-weight: 200;
+  }
+  .nav-link .mdl2 {
+    visibility: collapse;
+  }
+  .nav-link:hover {
+    color: white;
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 992px){
+  .navbar {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .navbar-toggler {
+    left: 0;
+    top: 6px;
+  }
+  .navbar-brand {
+    margin-right: 0;
+    float: none;
+  }
+  .navbar .container {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-nav {
+    margin-top: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: left;
+    background-color: var(--main-color);
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: var(--main-dark-color);
+  }
+  .nav-link .mdl2 {
+    visibility: visible;
+    padding-right: 16px;
+    font-size: 20px;
+    vertical-align: middle;
+  }
+  li.nav-item {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 200;
+  }
+}
