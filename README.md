@@ -1,7 +1,7 @@
 <p align="center" bgcolor="#0F7DC8"><a href="http://unigram.me"><img src="https://github.com/UnigramDev/unigramdev.github.io/raw/master/img/github/banner.jpg" width="50%" alt="Unigram website promo banner"/></a></p>
 
 # Official Unigram website
-[![](https://img.shields.io/badge/Bootstrap-v4.0.0--alpha.6-yellow.svg?colorB=563d7c)](https://v4-alpha.getbootstrap.com/) [![](https://img.shields.io/badge/W3C%20Validator-Pass-green.svg)](https://validator.w3.org/nu/?doc=http%3A%2F%2Funigram.me%2F)
+[![Build Status](https://travis-ci.org/UnigramDev/unigram.me.svg?branch=v2)](https://travis-ci.org/UnigramDev/unigram.me) [![](https://img.shields.io/badge/Bootstrap-v4.0.0--alpha.6-yellow.svg?colorB=563d7c)](https://v4-alpha.getbootstrap.com/)
 
 Landing page for [Unigram](https://github.com/UnigramDev/Unigram). It gives an overview of the application's features and provides some basic info on the project and it's team.
 
