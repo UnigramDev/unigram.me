@@ -1,0 +1,22 @@
+/*
+ * Unigram Website
+ * Copyright © 2016-2017 Unigram <team@unigram.me>
+ * Licensed under MIT 
+ * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
+ */
+noscript {
+  position: absolute;      
+  height: 100%;
+  width: 100%;
+  padding-top: 52px;
+  vertical-align: middle;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  background-color: rgba(15, 125, 199, 1);
+}
+
+noscript a {
+  color: white;
+  text-decoration: underline;
+}
