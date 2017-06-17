@@ -18,33 +18,12 @@
   text-align: center;
 }
 
-.featuredigest-feature {
-  height: 194px;
-  padding: 24px;
-  margin-bottom: 24px;
-  color: #292b2c;
-  text-decoration: none;
-  background: url("http://api.thumbr.it/whitenoise-768x500.png?background=d6d6d6ff&noise=a8a6a8&density=37&opacity=17");
-  border-style: solid;
-  border-width: 2px;
-  border-color: #d6d6d6;
-}
-
 .featuredigest-feature:hover {
    border-color: rgb(138,138,138);
 }
 
 .featuredigest-root a:hover {
   text-decoration: none;
-}
-
-.featuredigest-feature-title {
-  height: 60px;
-  font-size: 24px;
-}
-
-.featuredigest-feature-descr {
-  line-height: 1.4;
 }
 
 .featuredigest-explore {

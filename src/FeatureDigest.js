@@ -5,10 +5,17 @@
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
 import React, { Component } from 'react';
+import FeatureDigestData from "./data/FeatureDigestData";
+import FeatureDigestItem from "./FeatureDigestItem";
 import './FeatureDigest.css';
 
 class FeatureDigest extends Component {
   render() {
+    var features = initFeatures();
+    // Recursively create Project components.
+    var featureComponents = features.map(feature =>
+      <FeatureDigestItem value={feature} key={feature.id}/>
+    );
     return (
       <div className="featuredigest-root">
         <div className="container">
@@ -17,66 +24,7 @@ class FeatureDigest extends Component {
             Find out what you can do with Unigram.
           </div>
           <div className="row">
-            <a className="col-sm-6 col-md-4 col-lg-3" href="#">
-              <div className="featuredigest-feature">
-                <div className="featuredigest-feature-title">
-                  Calls
-                </div>
-                <p className="featuredigest-feature-descr">
-                  Make HD end-to-end encrypted calls anywhere in the world.
-                </p>
-              </div>
-            </a>
-            <a className="col-sm-6 col-md-4 col-lg-3" href="#">
-              <div className="featuredigest-feature">
-                <div className="featuredigest-feature-title">
-                  Photos and Videos
-                </div>
-                <p className="featuredigest-feature-descr">
-                  Snap, record and share your best moments or make a quick video message.
-                </p>
-              </div>
-            </a>
-            <a className="col-sm-6 col-md-4 col-lg-3" href="#">
-              <div className="featuredigest-feature">
-                <div className="featuredigest-feature-title">
-                  Stickers
-                </div>
-                <p className="featuredigest-feature-descr">
-                  Because sometimes there is no better way to express how you feel.
-                </p>
-              </div>
-            </a>
-            <a className="col-sm-6 col-md-4 col-lg-3" href="#">
-              <div className="featuredigest-feature">
-                <div className="featuredigest-feature-title">
-                  Groups
-                </div>
-                <p className="featuredigest-feature-descr">
-                  Chat, organize and coordinate with multiple contacts with Groups up to 5000 members.
-                </p>
-              </div>
-            </a>
-            <a className="col-sm-6 col-md-4 col-lg-3" href="#">
-              <div className="featuredigest-feature">
-                <div className="featuredigest-feature-title">
-                  Files
-                </div>
-                <p className="featuredigest-feature-descr">
-                  Send any type of file up to 1.5GB each.
-                </p>
-              </div>
-            </a>
-            <a className="col-sm-6 col-md-4 col-lg-3" href="#">
-              <div className="featuredigest-feature">
-                <div className="featuredigest-feature-title">
-                  GIFs
-                </div>
-                <p className="featuredigest-feature-descr">
-                  Send animated images like it's the 90s!
-                </p>
-              </div>
-            </a>
+            {featureComponents}
             <div className="featuredigest-explore col-sm-12 col-md-12 col-lg-6">
               <div className="featuredigest-feature-title">
                 ...and much, much more!
@@ -88,6 +36,26 @@ class FeatureDigest extends Component {
       </div>
     );
   }
+}
+
+/**
+ * Initialized the Feature Digest array.
+ * 
+ * It collects the data from a local JSON file. 
+ * 
+ * @returns {Array} collection of Features.
+ */
+function initFeatures() {
+  var features = [];
+  var data = require('./data/FeatureDigestItems.json');
+  for(var i = 0; i < data.length; i++) {
+    var featureJSON = data[i];
+    features.push(new FeatureDigestData(featureJSON.id,
+                                        featureJSON.title, 
+                                        featureJSON.descr, 
+                                        featureJSON.link));
+  }
+  return features;
 }
 
 export default FeatureDigest;
