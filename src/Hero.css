@@ -1,0 +1,47 @@
+/*
+ * Unigram Website
+ * Copyright © 2016-2017 Unigram <team@unigram.me>
+ * Licensed under MIT 
+ * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
+ */
+@media (max-width: 992px) {
+  .jumbotron-wrapper {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.jumbotron {
+  margin-top: 48px;
+  background: url("http://api.thumbr.it/whitenoise-768x500.png?background=d6d6d6ff&noise=a8a6a8&density=37&opacity=17");
+  border-radius: 0;
+}
+
+.jumbotron p {
+    padding-top: 24px;
+}
+
+.jumbotron-btn-group {
+    margin-top: 20px;
+}
+
+#jumbotron-mobile {
+    position: absolute;
+    left: 36px;
+    top: 90px;
+    width: 130px;
+}
+
+#jumbotron-desktop {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.jumbotron-device-group {
+  position: relative;
+}
