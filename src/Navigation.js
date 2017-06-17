@@ -5,6 +5,7 @@
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
 import React, { Component } from 'react';
+import * as Const from './data/Constants';
 import './Navigation.css';
 
 class Navigation extends Component {
@@ -24,7 +25,7 @@ class Navigation extends Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#download">
+                  <a className="nav-link" href={Const.DownloadLink}>
                     <i className="mdl2 mdl2-download" aria-hidden="true"></i>Download
                   </a>
                 </li>
@@ -42,7 +43,7 @@ class Navigation extends Component {
             </div>
           </div>
           <button className="navbar-toggler navbar-toggler-left" data-toggle="collapse" data-target="#navbarExample" type="button" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="img/buttons/menu.svg" width="26"/>
+            <img src="img/buttons/menu.svg"/>
           </button>
         </nav>
       </div>

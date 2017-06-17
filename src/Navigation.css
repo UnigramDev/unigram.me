@@ -48,8 +48,21 @@
   }
   .navbar-toggler {
     left: 0;
-    top: 6px;
+    top: 0;
+    height: 48px;
+    width: 48px;
   }
+
+  .navbar-toggler:hover {
+    background-color: var(--main-dark-color);
+    border-radius: 0;
+  }
+
+  .navbar-toggler img {
+    width: 26px;
+    margin-left: -2px;
+  }
+
   .navbar-brand {
     margin-right: 0;
     float: none;
@@ -75,6 +88,7 @@
     vertical-align: middle;
   }
   li.nav-item {
+    margin-left: -2px;
     margin-top: 5px;
     margin-bottom: 5px;
     font-weight: 200;
