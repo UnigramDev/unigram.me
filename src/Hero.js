@@ -5,6 +5,7 @@
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
 import React, { Component } from 'react';
+import * as Const from './data/Constants';
 import './Hero.css';
 
 class Hero extends Component {
@@ -25,7 +26,7 @@ class Hero extends Component {
                     experience on any Windows 10 devices, built by the community for the community.
                   </p>
                   <div className="jumbotron-btn-group">
-                    <a className="btn btn-primary" href="#">Download</a>
+                    <a className="btn btn-primary" href={Const.DownloadLink}>Download</a>
                     <a className="btn btn-secondary" href="#">Learn more</a>
                   </div>
                 </div>
