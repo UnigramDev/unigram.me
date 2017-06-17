@@ -30,26 +30,7 @@ class Hero extends Component {
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-6">
-                  <div className="jumbotron-device-group">
-                    <div className="device-container" id="jumbotron-desktop">
-                      <div className="device-mockup surface-laptop landscape">
-                        <div className="device">
-                          <div className="screen">
-                            <img className="img-fluid" src="img/screenshots/desktop-wide-1.png" alt="Screenshot: chat list"/>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="device-container" id="jumbotron-mobile">
-                      <div className="device-mockup lumia950 portrait">
-                        <div className="device">
-                          <div className="screen">
-                            <img className="img-fluid" src="img/screenshots/mobile-list-1.png" alt="Screenshot: chat list"/>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <img src="img/Laptop_Mobile_Combo.png"/>
                 </div>
               </div>
             </div>

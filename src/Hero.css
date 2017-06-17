@@ -10,6 +10,10 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  .hero-root img {
+    padding-top: 24px;
+  }
 }
 
 .jumbotron {
@@ -44,4 +48,8 @@
 
 .jumbotron-device-group {
   position: relative;
+}
+
+.hero-root img{
+  width: 100%;
 }
