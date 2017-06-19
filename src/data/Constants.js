@@ -5,14 +5,19 @@
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
 
-// Store link.
+/**
+ * @file A list of all constants used by the whole site.
+ * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
+ */
+
+/* Store link. */
 export const DownloadLink = "https://www.microsoft.com/store/apps/9n97zckpd60q";
 
-// Social links.
+/* Social links. */
 export const facebookLink = "https://www.facebook.com/UnigramApp/";
 export const twitterLink = "https://twitter.com/UnigramApp";
 
-// Github links.
+/* Github links. */
 export const githubOrgLink = "https://github.com/UnigramDev";
 
 export const githubAppRepoLink = githubOrgLink + "/Unigram";
@@ -25,9 +30,9 @@ export const githubWebRepoLink = githubOrgLink + "/unigram.me";
 export const githubWebLicenseLink = githubWebRepoLink + "/blob/v2/LICENSE";
 export const githubWebIssueLink = githubWebRepoLink + "/issues";
 
-// Other external links.
+/* Other external links. */
 export const behanceLink = "https://www.behance.net/gallery/37507573/Unigram-for-Windows-10-Mobile";
 
-// Team links.
+/* Team links. */
 export const mateiGithubLink = "https://github.com/mateiradu";
 

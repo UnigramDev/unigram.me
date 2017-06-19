@@ -4,6 +4,12 @@
  * Licensed under MIT 
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
+
+/**
+ * @file An incomplete display of app features. It should be used only in the home page.
+ * @see {@link index.js|index}
+ * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
+ */
 import React, { Component } from 'react';
 import FeatureDigestData from "./data/FeatureDigestData";
 import FeatureDigestItem from "./FeatureDigestItem";
@@ -40,7 +46,6 @@ class FeatureDigest extends Component {
 
 /**
  * Initialized the Feature Digest array.
- * 
  * It collects the data from a local JSON file. 
  * 
  * @returns {Array} collection of Features.

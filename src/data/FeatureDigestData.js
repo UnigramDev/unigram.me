@@ -4,6 +4,12 @@
  * Licensed under MIT 
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
+
+/**
+ * @class Creates a new Feature digest with all the basic info.
+ * @see {@link FeatureDigestItem.js|FeatureDigestItem}
+ * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
+ */
 class FeatureDigestData {
 
     constructor(id, title, descr, link) {

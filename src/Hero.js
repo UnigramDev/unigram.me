@@ -4,6 +4,11 @@
  * Licensed under MIT 
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
+
+/**
+ * @file Hero component. It displays a brief but important information with a banner style.
+ * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
+ */
 import React, { Component } from 'react';
 import * as Const from './data/Constants';
 import './Hero.css';

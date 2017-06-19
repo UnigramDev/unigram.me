@@ -4,6 +4,12 @@
  * Licensed under MIT 
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
+
+/**
+ * @file A brief introduction of the app. It should be used only in the home page.
+ * @see {@link index.js|index}
+ * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
+ */
 import React, { Component } from 'react';
 import './AboutDigest.css';
 

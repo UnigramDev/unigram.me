@@ -4,6 +4,13 @@
  * Licensed under MIT 
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
+
+/**
+ * @file A brief feature description. It should only be used by FeatureDigest in the home page.
+ * @see {@link FeatureDigest.js|FeatureDigest}
+ * @see {@link index.js|index}
+ * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
+ */
 import React, { Component } from 'react';
 import "./FeatureDigestItem.css";
 

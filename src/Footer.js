@@ -4,6 +4,11 @@
  * Licensed under MIT 
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
+
+/**
+ * @file Footer component. It displays copyright and license info as well as other website links.
+ * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
+ */
 import React, { Component } from 'react';
 import * as Const from './data/Constants';
 import './Footer.css';
