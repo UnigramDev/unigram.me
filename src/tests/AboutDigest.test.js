@@ -6,7 +6,7 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AboutDigest from '../AboutDigest';
+import AboutDigest from '../home/components/AboutDigest';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');

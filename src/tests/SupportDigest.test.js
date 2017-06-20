@@ -6,7 +6,7 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SupportDigest from '../SupportDigest';
+import SupportDigest from '../home/components/SupportDigest';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');

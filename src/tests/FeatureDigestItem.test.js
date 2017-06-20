@@ -6,8 +6,8 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import FeatureDigestItem from '../FeatureDigestItem';
-import FeatureDigestData from "../data/FeatureDigestData";
+import FeatureDigestItem from '../home/components/FeatureDigestItem';
+import FeatureDigestData from "../home/data/FeatureDigestData";
 
 it('renders without crashing', () => {
   const div = document.createElement('div');

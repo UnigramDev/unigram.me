@@ -10,7 +10,7 @@
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 import React, { Component } from 'react';
-import * as Const from './data/Constants';
+import * as Const from '../data/Constants';
 import './Navigation.css';
 
 class Navigation extends Component {

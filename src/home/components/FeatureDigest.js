@@ -11,7 +11,7 @@
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 import React, { Component } from 'react';
-import FeatureDigestData from "./data/FeatureDigestData";
+import FeatureDigestData from "../data/FeatureDigestData";
 import FeatureDigestItem from "./FeatureDigestItem";
 import './FeatureDigest.css';
 
@@ -52,7 +52,7 @@ class FeatureDigest extends Component {
  */
 function initFeatures() {
   var features = [];
-  var data = require('./data/FeatureDigestItems.json');
+  var data = require('../data/FeatureDigestItems.json');
   for(var i = 0; i < data.length; i++) {
     var featureJSON = data[i];
     features.push(new FeatureDigestData(featureJSON.id,

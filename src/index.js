@@ -11,12 +11,12 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Navigation from './Navigation';
-import Hero from './Hero';
-import AboutDigest from './AboutDigest';
-import FeatureDigest from './FeatureDigest';
-import SupportDigest from './SupportDigest';
-import Footer from './Footer';
+import Navigation from './common/components/Navigation';
+import Hero from './home/components/Hero';
+import AboutDigest from './home/components/AboutDigest';
+import FeatureDigest from './home/components/FeatureDigest';
+import SupportDigest from './home/components/SupportDigest';
+import Footer from './common/components/Footer';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
