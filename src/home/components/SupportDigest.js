@@ -23,7 +23,7 @@ class SupportDigest extends Component {
           <div className="supportdigest-subheader sh1">
             Make a feature request or report a bug.
           </div>
-          <a className="btn btn-primary" href="#">Ask for support</a>
+          <a className="btn btn-primary" href="#dummylink">Ask for support</a>
         </div>
       </div>
     );

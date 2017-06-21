@@ -32,11 +32,11 @@ class Hero extends Component {
                   </p>
                   <div className="jumbotron-btn-group">
                     <a className="btn btn-primary" href={Const.DownloadLink}>Download</a>
-                    <a className="btn btn-secondary" href="#">Learn more</a>
+                    <a className="btn btn-secondary" href="#dummylink">Learn more</a>
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-6">
-                  <img src="img/Laptop_Mobile_Combo.png"/>
+                  <img src="img/Laptop_Mobile_Combo.png" alt=""/>
                 </div>
               </div>
             </div>

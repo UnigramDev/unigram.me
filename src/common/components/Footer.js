@@ -30,8 +30,8 @@ class Footer extends Component {
             <div className="footer-group col-xs-12 col-sm-6 col-md-3">
               <div className="footer-group-header">Help</div>
               <ul>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">FAQ</a></li>
+                <li><a href="#dummylink">Support</a></li>
+                <li><a href="#dummylink">FAQ</a></li>
                 <li><a href={Const.githubAppUserManLink}>User Manual</a></li>
               </ul>
             </div>
@@ -46,8 +46,8 @@ class Footer extends Component {
             <div className="footer-group col-xs-12 col-sm-6 col-md-3">
               <div className="footer-group-header">Values</div>
               <ul>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Community</a></li>
+                <li><a href="#dummylink">Privacy Policy</a></li>
+                <li><a href="#dummylink">Community</a></li>
               </ul>
             </div>
           </div>

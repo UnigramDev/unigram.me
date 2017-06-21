@@ -35,7 +35,7 @@ class FeatureDigest extends Component {
               <div className="featuredigest-feature-title">
                 ...and much, much more!
               </div>
-              <a className="btn btn-primary" href="#">Explore all features</a>
+              <a className="btn btn-primary" href="#dummylink">Explore all features</a>
             </div>
           </div>
         </div>

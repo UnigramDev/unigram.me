@@ -48,7 +48,7 @@ class Navigation extends Component {
             </div>
           </div>
           <button className="navbar-toggler navbar-toggler-left" data-toggle="collapse" data-target="#navbarExample" type="button" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="img/buttons/menu.svg"/>
+            <img src="img/buttons/menu.svg" alt=""/>
           </button>
         </nav>
       </div>
