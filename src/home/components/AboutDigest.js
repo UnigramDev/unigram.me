@@ -16,7 +16,31 @@ import './AboutDigest.css';
 class AboutDigest extends Component {
   render() {
     return (
-      <div className="aboutdigest-root">
+      <div className="aboutdigest-root" classID="#aboutdigest">
+        <div className="container">
+          <h1 className="featuredigest-header">Trully universal</h1>
+          <div className="featuredigest-subheader sh1">
+            Desktop, Mobile, Xbox, Hololens
+          </div>
+          <div className="row">
+            <div className="col-md-12 col-lg-6">
+              <img src="img/screenshots/desktop-wide-1.png" alt=""/>
+            </div>
+            <div className="aboutdigest-text col-md-12 col-lg-6">
+              <p>
+                Unigram is a fully fledged Universal Windows Platform app, giving you
+                the most complete Telegram experience seamlessly across all your favorite
+                Windows 10 devices.
+              </p>
+              <p>
+                Since day one, Unigram is a community driven project and it continues to grow
+                thanks to its large number of fans and enthusiasts. Join our Unigram Insiders 
+                Group and partecipate in the making of Unigram!<br/>
+                <a className="btn btn-primary" href="#community">Learn about the Community</a>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

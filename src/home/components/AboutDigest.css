@@ -4,3 +4,27 @@
  * Licensed under MIT 
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
+.aboutdigest-root {
+  padding-bottom: 20px;
+}
+.aboutdigest-root img {
+  width: 100%;
+}
+
+.aboutdigest-text {
+  padding-top: 24px;
+}
+
+.aboutdigest-text p {
+  padding-bottom: 24px;
+}
+
+.aboutdigest-text .btn {
+  margin-top: 24px;
+}
+
+@media (max-width: 992px) {
+  .aboutdigest-text .btn {
+    text-align: center;
+  }
+}

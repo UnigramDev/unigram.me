@@ -26,13 +26,9 @@ class Hero extends Component {
                   <div className="sh1">
                     The Telegram client for Windows 10
                   </div>
-                  <p>
-                    Unigram is an open-source project that aims to provide the best Telegram
-                    experience on any Windows 10 devices, built by the community for the community.
-                  </p>
                   <div className="jumbotron-btn-group">
                     <a className="btn btn-primary" href={Const.DownloadLink}>Download</a>
-                    <a className="btn btn-secondary" href="#dummylink">Learn more</a>
+                    <a className="btn btn-secondary" href="#aboutdigest">Learn more</a>
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-6">
