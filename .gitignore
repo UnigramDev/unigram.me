@@ -12,6 +12,9 @@
 # jsdoc output
 /docs
 
+# Netlify
+.netlify
+
 # misc
 .DS_Store
 .env.local

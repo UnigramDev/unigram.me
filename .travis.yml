@@ -1,3 +1,9 @@
+dist: trusty
+sudo: required
+group: edge
+branches:
+  only:
+  - v2
 language: node_js
 node_js:
   - 6
@@ -6,8 +12,8 @@ cache:
     - node_modules
 script:
   - npm test
-branches:
-  only:
-  - v2
+after_success:
+  - chmod +x ./scripts/deploy.sh
+  - ./scripts/deploy.sh
 notifications:
   email: false
