@@ -12,21 +12,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Navigation from './common/components/Navigation';
-import Hero from './home/components/Hero';
-import AboutDigest from './home/components/AboutDigest';
-import FeatureDigest from './home/components/FeatureDigest';
-import SupportDigest from './home/components/SupportDigest';
 import Footer from './common/components/Footer';
 import registerServiceWorker from './registerServiceWorker';
+import HomePage from './pages/HomePage';
+import PrivacyPage from './pages/PrivacyPage';
 import './index.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom'; 
 
 /* Render in top-bottom order all components. */
-ReactDOM.render(<Navigation />, document.getElementById('navigation'));
-ReactDOM.render(<Hero />, document.getElementById('hero'));
-ReactDOM.render(<AboutDigest />, document.getElementById('about'));
-ReactDOM.render(<FeatureDigest />, document.getElementById('features'));
-ReactDOM.render(<SupportDigest />, document.getElementById('support'));
-ReactDOM.render(<Footer />, document.getElementById('footer'));
-
+ReactDOM.render(
+  <Router>
+    <div>
+      <Navigation/>
+      <Route exact path="/" component={HomePage}/>
+      <Route path="/privacy" component={PrivacyPage}/>
+      <Footer/>
+    </div>
+  </Router>, document.body
+);
 /* Register service worker. */
 registerServiceWorker();

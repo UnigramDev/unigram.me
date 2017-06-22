@@ -1,6 +1,6 @@
 {
   "name": "unigram",
-  "version": "2.0.0-alpha.14",
+  "version": "2.0.0-alpha.15",
   "author": "Matei Bogdan Radu <matei.radu.92@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.1"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"

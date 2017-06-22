@@ -11,9 +11,19 @@
 }
 
 body {
-  padding: 0;
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 48px;
+  padding-bottom: 0;
+  height: auto;
+  min-height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.main {
+  min-height: calc(100vh - 294px);
+} 
 
 h1 {
   font-size: 46px;

@@ -11,6 +11,7 @@
  */
 import React, { Component } from 'react';
 import * as Const from '../data/Constants';
+import { Link } from 'react-router-dom';
 import './Navigation.css';
 
 class Navigation extends Component {
@@ -19,9 +20,9 @@ class Navigation extends Component {
       <div className="navigation-root">
         <nav className="navbar fixed-top navbar-toggleable-md" id="main-nav">
           <div className="container">
-            <a className="navbar-brand" href="#page-top">
+            <Link className="navbar-brand" to={'/'}>
               <img src="img/buttons/unigram.svg" alt="Unigram Logo"/>Unigram
-            </a>
+            </Link>
             <div className="collapse navbar-collapse" id="navbarExample">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">

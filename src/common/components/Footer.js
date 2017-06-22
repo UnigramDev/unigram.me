@@ -11,6 +11,7 @@
  */
 import React, { Component } from 'react';
 import * as Const from '../data/Constants';
+import { Link } from 'react-router-dom'; 
 import './Footer.css';
 
 class Footer extends Component {
@@ -46,8 +47,8 @@ class Footer extends Component {
             <div className="footer-group col-xs-12 col-sm-6 col-md-3">
               <div className="footer-group-header">Values</div>
               <ul>
-                <li><a href="#dummylink">Privacy Policy</a></li>
-                <li><a href="#dummylink">Community</a></li>
+                <li><Link to={'/privacy'}>Privacy Policy</Link></li>
+                <li><Link to={'/community'}>Community</Link></li>
               </ul>
             </div>
           </div>
