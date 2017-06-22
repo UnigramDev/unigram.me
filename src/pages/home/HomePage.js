@@ -5,6 +5,11 @@
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
 
+/**
+ * @file Home page. It displays all the presentation components like
+ * the digest ones and Hero.
+ * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
+ */
 import React, { Component } from 'react';
 import Hero from '../home/components/Hero';
 import AboutDigest from '../home/components/AboutDigest';

@@ -36,3 +36,8 @@ export const behanceLink = "https://www.behance.net/gallery/37507573/Unigram-for
 /* Team links. */
 export const mateiGithubLink = "https://github.com/mateiradu";
 
+/* Privacy. */
+export const privacyUpdate = "June 2017";
+export const privacyEmail = "team@unigram.me";
+export const privacyContactEmail = "mailto:" + privacyEmail;
+

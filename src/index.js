@@ -16,18 +16,19 @@ import Footer from './common/components/Footer';
 import registerServiceWorker from './registerServiceWorker';
 import HomePage from './pages/home/HomePage';
 import PrivacyPage from './pages/privacy/PrivacyPage';
+import ScrollToTop from './common/components/ScrollToTop';
 import './index.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom'; 
 
 /* Render in top-bottom order all components. */
 ReactDOM.render(
   <Router>
-    <div>
+    <ScrollToTop>
       <Navigation/>
       <Route exact path="/" component={HomePage}/>
       <Route path="/privacy" component={PrivacyPage}/>
       <Footer/>
-    </div>
+    </ScrollToTop>
   </Router>, document.body
 );
 /* Register service worker. */
