@@ -14,8 +14,8 @@ import ReactDOM from 'react-dom';
 import Navigation from './common/components/Navigation';
 import Footer from './common/components/Footer';
 import registerServiceWorker from './registerServiceWorker';
-import HomePage from './pages/HomePage';
-import PrivacyPage from './pages/PrivacyPage';
+import HomePage from './pages/home/HomePage';
+import PrivacyPage from './pages/privacy/PrivacyPage';
 import './index.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom'; 
 

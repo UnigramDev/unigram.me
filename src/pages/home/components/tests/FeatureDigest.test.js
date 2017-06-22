@@ -6,9 +6,9 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SupportDigest from '../home/components/SupportDigest';
+import FeatureDigest from '../FeatureDigest';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<SupportDigest />, div);
+  ReactDOM.render(<FeatureDigest />, div);
 });

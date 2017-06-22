@@ -6,9 +6,9 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AboutDigest from '../home/components/AboutDigest';
+import Hero from '../Hero';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<AboutDigest />, div);
+  ReactDOM.render(<Hero />, div);
 });

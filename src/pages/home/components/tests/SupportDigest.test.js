@@ -6,11 +6,9 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import FeatureDigestItem from '../home/components/FeatureDigestItem';
-import FeatureDigestData from "../home/data/FeatureDigestData";
+import SupportDigest from '..//SupportDigest';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  var feature = new FeatureDigestData("title","description","somelink");
-  ReactDOM.render(<FeatureDigestItem value={feature}/>, div);
+  ReactDOM.render(<SupportDigest />, div);
 });
