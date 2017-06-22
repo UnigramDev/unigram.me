@@ -43,7 +43,7 @@ Open a [new issue](https://github.com/UnigramDev/unigramdev.github.io/issues/new
 
 ## Credits
 - [Jakub Steplowski](https://www.behance.net/jakubsteplowski) for the the mockups: [Lumia 950](https://www.behance.net/gallery/34545883/Microsoft-Lumia-950-Flat-Mockup-PSD-(v10)), [HP Elite X3](https://www.behance.net/gallery/38726153/HP-Elite-x3-Mockup-PSD).
-- [Vagner Santana](https://github.com/vagnervjs) for the [Social Sign In Buttons in CSS](https://github.com/vagnervjs/social-signin-btns).
+- [Rafael Pedicini](https://github.com/rafrex) for the [Single Page Apps for GitHub Pages](https://github.com/rafrex/spa-github-pages) workaround.
 - [Compressor.io](https://compressor.io/) for lossless image compression.
 
 ## License
