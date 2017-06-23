@@ -1,0 +1,63 @@
+/*
+ * Unigram Website
+ * Copyright © 2016-2017 Unigram <team@unigram.me>
+ * Licensed under MIT 
+ * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
+ */
+.support-root {
+  padding-top: 80px;
+  padding-bottom: 48px;
+}
+
+.support-logo {
+  text-align: right;
+}
+
+.support-logo img {
+  margin-right: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 70%;
+  border-radius: 50%;
+}
+
+.support-descr {
+  padding-bottom: 36px;
+}
+
+hr {
+  display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #949396;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.support-more ul {
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+  list-style-type: none;
+}
+
+@media (max-width: 768px) {
+  .support-root {
+    padding-top: 40px;
+    padding-bottom: 48px;
+  }
+
+  .support-logo {
+    text-align: center;
+  }
+
+  .support-logo img {
+    visibility: collapse;
+    height: 0;
+    margin-right: 0;
+  }
+
+  .support-more .col-12 {
+    padding-bottom: 24px;
+  }
+}

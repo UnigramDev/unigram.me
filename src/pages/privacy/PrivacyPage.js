@@ -15,6 +15,7 @@ import './PrivacyPage.css';
 
 class PrivacyPage extends Component {
   render() {
+    /* TODO: add more info on how we handle user data. */
     return (
       <div className="main">
         <div className="privacy-root">

@@ -12,6 +12,7 @@
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'; 
 import './SupportDigest.css';
 
 class SupportDigest extends Component {
@@ -23,7 +24,7 @@ class SupportDigest extends Component {
           <div className="supportdigest-subheader sh1">
             Make a feature request or report a bug.
           </div>
-          <a className="btn btn-primary" href="#dummylink">Ask for support</a>
+          <Link className="btn btn-primary" to={"/support"}>Ask for support</Link>
         </div>
       </div>
     );

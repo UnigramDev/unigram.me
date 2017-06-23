@@ -31,7 +31,7 @@ class Footer extends Component {
             <div className="footer-group col-xs-12 col-sm-6 col-md-3">
               <div className="footer-group-header">Help</div>
               <ul>
-                <li><a href="#dummylink">Support</a></li>
+                <li><Link to={'/support'}>Support</Link></li>
                 <li><a href="#dummylink">FAQ</a></li>
                 <li><a href={Const.githubAppUserManLink}>User Manual</a></li>
               </ul>

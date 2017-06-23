@@ -13,8 +13,12 @@
 /* Store link. */
 export const DownloadLink = "https://www.microsoft.com/store/apps/9n97zckpd60q";
 
+/* Insiders link. */
+export const insidersGroupLink = "https://t.me/joinchat/AAAAAD851oqVwhp9oy9WbQ";
+
 /* Social links. */
 export const facebookLink = "https://www.facebook.com/UnigramApp/";
+export const facebookMessageLink = "https://www.facebook.com/messages/t/UnigramApp";
 export const twitterLink = "https://twitter.com/UnigramApp";
 
 /* Github links. */

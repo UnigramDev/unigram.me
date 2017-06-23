@@ -41,9 +41,9 @@ class Navigation extends Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#contact">
+                  <Link className="nav-link" to={'/support'}>
                     <i className="mdl2 mdl2-accounts" aria-hidden="true"></i>Support
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -16,6 +16,7 @@ import Footer from './common/components/Footer';
 import registerServiceWorker from './registerServiceWorker';
 import HomePage from './pages/home/HomePage';
 import PrivacyPage from './pages/privacy/PrivacyPage';
+import SupportPage from './pages/support/SupportPage';
 import ScrollToTop from './common/components/ScrollToTop';
 import NotFound from './common/components/NotFound';
 import './index.css';
@@ -29,6 +30,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={HomePage}/>
         <Route path="/privacy" component={PrivacyPage}/>
+        <Route path="/support" component={SupportPage}/>
         <Route component={NotFound} />
       </Switch>
       <Footer/>
