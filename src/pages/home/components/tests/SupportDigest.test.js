@@ -6,9 +6,10 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SupportDigest from '..//SupportDigest';
+import { BrowserRouter as Router } from 'react-router-dom';
+import SupportDigest from '../SupportDigest';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<SupportDigest />, div);
+  ReactDOM.render(<Router><SupportDigest /></Router>, div);
 });
