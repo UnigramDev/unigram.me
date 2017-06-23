@@ -18,11 +18,16 @@ class NotFound extends Component {
     return (
       <div className="main">
         <div className="notfound-root">
+          <div className="row">
+            <div className="col-12 col-md-6 offset-md-3">
+          <img src="/img/unigram_missing.svg" alt=""/>
           <h1>404</h1>
           <p>
-            The page you are looking for doesn't seem to exist.
+            Whatever you're looking for it's not here.
           </p>
-          <Link className="btn btn-primary" to={'/'}>Go to homepage</Link>
+          <Link className="btn btn-primary" to={'/'}>Back to homepage</Link>
+          </div>
+          </div>
         </div>
       </div>
     );

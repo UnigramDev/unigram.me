@@ -6,7 +6,8 @@
  */
 
 /**
- * @file Privacy page. It displays the privacy policy to the user.
+ * @file Support page. It displays options on how to contact the developers
+ * for support.
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 import React, { Component } from 'react';
@@ -15,7 +16,6 @@ import './SupportPage.css';
 
 class SupportPage extends Component {
   render() {
-    /* TODO: add more info on how we handle user data. */
     return (
       <div className="main">
         <div className="support-root">

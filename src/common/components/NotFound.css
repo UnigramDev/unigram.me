@@ -10,6 +10,11 @@
   text-align: center;
 }
 
+.notfound-root img {
+  width: 40%;
+}
+
 .notfound-root h1 {
+  padding-top: 28px;
   padding-bottom: 24px;
 }
