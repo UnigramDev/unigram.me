@@ -34,7 +34,7 @@ This website uses the following frameworks and tools:
 ## Contributing
 The addition of new sections and features is reserved to the Unigram Development Team, however bug and performance related contributions are warmly welcome.
 
-Open a [new issue](https://github.com/UnigramDev/unigramdev.github.io/issues/new) or if you prefer fork the repository and use a feature branch. All HTML and CSS should conform to the [Code Guide](http://codeguide.co/), maintained by [Mark Otto](https://github.com/mdo).
+Open a [new issue](https://github.com/UnigramDev/unigram.me/issues/new) or if you prefer fork the repository and use a feature branch. All HTML and CSS should conform to the [Code Guide](http://codeguide.co/), maintained by [Mark Otto](https://github.com/mdo).
 
 ## Creators
 **Matei Radu**
@@ -44,10 +44,9 @@ Open a [new issue](https://github.com/UnigramDev/unigramdev.github.io/issues/new
 
 ## Credits
 - [Jakub Steplowski](https://www.behance.net/jakubsteplowski) for the the mockups: [Lumia 950](https://www.behance.net/gallery/34545883/Microsoft-Lumia-950-Flat-Mockup-PSD-(v10)), [HP Elite X3](https://www.behance.net/gallery/38726153/HP-Elite-x3-Mockup-PSD).
-- [Rafael Pedicini](https://github.com/rafrex) for the [Single Page Apps for GitHub Pages](https://github.com/rafrex/spa-github-pages) workaround.
 - [Compressor.io](https://compressor.io/) for lossless image compression.
 
 ## License
-[MIT](https://github.com/UnigramDev/unigramdev.github.io/blob/master/LICENSE) License
+[MIT](https://github.com/UnigramDev/unigram.me/blob/master/LICENSE) License
 
 Copyright © 2016-2017 Unigram dev team.

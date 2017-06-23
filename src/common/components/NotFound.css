@@ -1,0 +1,15 @@
+/*
+ * Unigram Website
+ * Copyright © 2016-2017 Unigram <team@unigram.me>
+ * Licensed under MIT 
+ * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
+ */
+.notfound-root {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-align: center;
+}
+
+.notfound-root h1 {
+  padding-bottom: 24px;
+}

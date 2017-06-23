@@ -17,16 +17,20 @@ import registerServiceWorker from './registerServiceWorker';
 import HomePage from './pages/home/HomePage';
 import PrivacyPage from './pages/privacy/PrivacyPage';
 import ScrollToTop from './common/components/ScrollToTop';
+import NotFound from './common/components/NotFound';
 import './index.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom'; 
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; 
 
 /* Render in top-bottom order all components. */
 ReactDOM.render(
   <Router>
     <ScrollToTop>
       <Navigation/>
-      <Route exact path="/" component={HomePage}/>
-      <Route path="/privacy" component={PrivacyPage}/>
+      <Switch>
+        <Route exact path="/" component={HomePage}/>
+        <Route path="/privacy" component={PrivacyPage}/>
+        <Route component={NotFound} />
+      </Switch>
       <Footer/>
     </ScrollToTop>
   </Router>, document.body
