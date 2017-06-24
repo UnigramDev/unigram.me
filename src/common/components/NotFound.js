@@ -23,7 +23,7 @@ class NotFound extends Component {
           <img src="/img/unigram_missing.svg" alt=""/>
           <h1>404</h1>
           <p>
-            Whatever you're looking for it's not here.
+            Whatever you're looking for is not here.
           </p>
           <Link className="btn btn-primary" to={'/'}>Back to homepage</Link>
           </div>

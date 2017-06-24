@@ -45,3 +45,6 @@ export const privacyUpdate = "June 2017";
 export const privacyEmail = "team@unigram.me";
 export const privacyContactEmail = "mailto:" + privacyEmail;
 
+/* FAQ. */
+export const faqUpdate = "June 2017";
+

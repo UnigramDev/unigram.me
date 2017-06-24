@@ -32,7 +32,7 @@ class Footer extends Component {
               <div className="footer-group-header">Help</div>
               <ul>
                 <li><Link to={'/support'}>Support</Link></li>
-                <li><a href="#dummylink">FAQ</a></li>
+                <li><Link to={'/faq'}>FAQ</Link></li>
                 <li><a href={Const.githubAppUserManLink}>User Manual</a></li>
               </ul>
             </div>

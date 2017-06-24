@@ -17,6 +17,7 @@ import registerServiceWorker from './registerServiceWorker';
 import HomePage from './pages/home/HomePage';
 import PrivacyPage from './pages/privacy/PrivacyPage';
 import SupportPage from './pages/support/SupportPage';
+import FaqPage from './pages/faq/FaqPage';
 import ScrollToTop from './common/components/ScrollToTop';
 import NotFound from './common/components/NotFound';
 import './index.css';
@@ -31,6 +32,7 @@ ReactDOM.render(
         <Route exact path="/" component={HomePage}/>
         <Route path="/privacy" component={PrivacyPage}/>
         <Route path="/support" component={SupportPage}/>
+        <Route path="/faq" component={FaqPage}/>
         <Route component={NotFound} />
       </Switch>
       <Footer/>

@@ -18,7 +18,7 @@ class AboutDigest extends Component {
     return (
       <div className="aboutdigest-root" classID="#aboutdigest">
         <div className="container">
-          <h1 className="featuredigest-header">Trully universal</h1>
+          <h1 className="featuredigest-header">Truly universal</h1>
           <div className="featuredigest-subheader sh1">
             Desktop, Mobile, Xbox, Hololens
           </div>
