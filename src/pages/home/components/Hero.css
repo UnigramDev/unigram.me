@@ -17,7 +17,7 @@
 }
 
 .jumbotron {
-  background: url("http://api.thumbr.it/whitenoise-768x500.png?background=d6d6d6ff&noise=a8a6a8&density=37&opacity=17");
+  background: #d6d6d6;
   border-radius: 0;
 }
 
