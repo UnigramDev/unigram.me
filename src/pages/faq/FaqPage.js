@@ -78,8 +78,8 @@ class FaqPage extends Component {
               <hr/>
               <p>
                 We release new builds only when it's meaningful, like when a new feature is 
-                implemented up to a usable state and some features need more time than others. 
-                We don't see much sense in scheduling releases if most of the times it means 
+                implemented up to a usable state. Some features need more time than others, so 
+                we don't see much sense in scheduling releases if most of the times it means 
                 shipping unfinished software.
               </p>
               <p>

@@ -20,3 +20,8 @@ noscript a {
   color: white;
   text-decoration: underline;
 }
+
+noscript img {
+  display: block;
+  margin: 0 auto;
+}
