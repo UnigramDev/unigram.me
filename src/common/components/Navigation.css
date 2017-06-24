@@ -64,13 +64,15 @@
   }
 
   .navbar-brand {
-    margin-right: 0;
     float: none;
+    margin-right: 0;
   }
+
   .navbar .container {
     width: 100%;
     text-align: center;
   }
+
   .navbar-nav {
     margin-top: 6px;
     padding-left: 16px;
@@ -81,12 +83,14 @@
     border-top-style: solid;
     border-top-color: var(--main-dark-color);
   }
+
   .nav-link .mdl2 {
     visibility: visible;
     padding-right: 16px;
     font-size: 20px;
     vertical-align: middle;
   }
+  
   li.nav-item {
     margin-left: -2px;
     margin-top: 5px;
