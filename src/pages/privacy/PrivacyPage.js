@@ -9,7 +9,7 @@
  * @file Privacy page. It displays the privacy policy to the user.
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
-import React, { Component } from 'react';
+import React from 'react';
 import * as Const from '../../common/data/Constants';
 import './PrivacyPage.css';
 

@@ -9,7 +9,7 @@
  * @file Navigation bar component.
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
-import React, { Component } from 'react';
+import React from 'react';
 import * as Const from '../data/Constants';
 import { Link } from 'react-router-dom';
 import './Navigation.css';

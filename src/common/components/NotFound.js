@@ -9,7 +9,7 @@
  * @file Component to display a 404 message.
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './NotFound.css';
 
