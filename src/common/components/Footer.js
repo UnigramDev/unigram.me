@@ -14,58 +14,55 @@ import * as Const from '../data/Constants';
 import { Link } from 'react-router-dom'; 
 import './Footer.css';
 
-class Footer extends Component {
-  render() {
-    var currentYear = new Date().getFullYear();
-    return (
-      <div className="footer-root">
-        <div className="container">
-          <div className="row">
-            <div className="footer-group col-xs-12 col-sm-6 col-md-3">
-              <div className="footer-group-header">Social</div>
-              <ul>
-                <li><a href={Const.facebookLink}>Facebook</a></li>
-                <li><a href={Const.twitterLink}>Twitter</a></li>
-              </ul>
-            </div>
-            <div className="footer-group col-xs-12 col-sm-6 col-md-3">
-              <div className="footer-group-header">Help</div>
-              <ul>
-                <li><Link to={'/support'}>Support</Link></li>
-                <li><Link to={'/faq'}>FAQ</Link></li>
-                <li><a href={Const.githubAppUserManLink}>User Manual</a></li>
-              </ul>
-            </div>
-            <div className="footer-group col-xs-12 col-sm-6 col-md-3">
-              <div className="footer-group-header">Resources</div>
-              <ul>
-                <li><a href={Const.githubOrgLink}>GitHub</a></li>
-                <li><a href={Const.githubAppDevManLink}>Developer Manual</a></li>
-                <li><a href={Const.behanceLink}>Behanced</a></li>
-              </ul>
-            </div>
-            <div className="footer-group col-xs-12 col-sm-6 col-md-3">
-              <div className="footer-group-header">Values</div>
-              <ul>
-                <li><Link to={'/privacy'}>Privacy Policy</Link></li>
-                <li><Link to={'/community'}>Community</Link></li>
-              </ul>
-            </div>
-          </div>
-          <div className="footer-license row"> 
-            <div className="col-12">
-              Content Copyright © 2016-{currentYear} Unigram.
-            </div>
-            <div className="col-12">
-              Designed and built by <a href={Const.mateiGithubLink}>Matei Bogdan Radu</a>, code licensed 
-              under <a href={Const.githubWebLicenseLink}>MIT</a>, source 
-              available on <a href={Const.githubWebRepoLink}>Github</a>.
-            </div>
-          </div>
+var currentYear = new Date().getFullYear();
+
+const Footer = () => (
+  <div className="footer-root">
+    <div className="container">
+      <div className="row">
+        <div className="footer-group col-xs-12 col-sm-6 col-md-3">
+          <div className="footer-group-header">Social</div>
+          <ul>
+            <li><a href={Const.facebookLink}>Facebook</a></li>
+            <li><a href={Const.twitterLink}>Twitter</a></li>
+          </ul>
+        </div>
+        <div className="footer-group col-xs-12 col-sm-6 col-md-3">
+          <div className="footer-group-header">Help</div>
+          <ul>
+            <li><Link to={'/support'}>Support</Link></li>
+            <li><Link to={'/faq'}>FAQ</Link></li>
+            <li><a href={Const.githubAppUserManLink}>User Manual</a></li>
+          </ul>
+        </div>
+        <div className="footer-group col-xs-12 col-sm-6 col-md-3">
+          <div className="footer-group-header">Resources</div>
+          <ul>
+            <li><a href={Const.githubOrgLink}>GitHub</a></li>
+            <li><a href={Const.githubAppDevManLink}>Developer Manual</a></li>
+            <li><a href={Const.behanceLink}>Behanced</a></li>
+          </ul>
+        </div>
+        <div className="footer-group col-xs-12 col-sm-6 col-md-3">
+          <div className="footer-group-header">Values</div>
+          <ul>
+            <li><Link to={'/privacy'}>Privacy Policy</Link></li>
+            <li><Link to={'/community'}>Community</Link></li>
+          </ul>
         </div>
       </div>
-    );
-  }
-}
+      <div className="footer-license row"> 
+        <div className="col-12">
+          Content Copyright © 2016-{currentYear} Unigram.
+        </div>
+        <div className="col-12">
+          Designed and built by <a href={Const.mateiGithubLink}>Matei Bogdan Radu</a>, code licensed 
+          under <a href={Const.githubWebLicenseLink}>MIT</a>, source 
+          available on <a href={Const.githubWebRepoLink}>Github</a>.
+        </div>
+      </div>
+    </div>
+  </div>
+);
 
 export default Footer;
