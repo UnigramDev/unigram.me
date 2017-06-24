@@ -6,7 +6,9 @@
  */
 
 /**
- * @file Home page of the site. It renders all the components, from navigation to footer.
+ * @file Home page of the site. Using React Router to provide page navigation
+ * and meaningful URLs.
+ * @see {@link https://github.com/ReactTraining/react-router|React Router}
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 import React from 'react';
@@ -23,8 +25,9 @@ import NotFound from './common/components/NotFound';
 import './index.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; 
 
-/* Render in top-bottom order all components. */
-ReactDOM.render(
+/* All navigation paths. Switch is necessary in order to match one possible
+   path and avoid displaying the NotFound page when not intended. */
+const NavigationRules = () => (
   <Router>
     <ScrollToTop>
       <Navigation/>
@@ -37,7 +40,11 @@ ReactDOM.render(
       </Switch>
       <Footer/>
     </ScrollToTop>
-  </Router>, document.body
+  </Router>
 );
+
+/* Render the navigation rules. */
+ReactDOM.render(<NavigationRules/>, document.getElementById('core'));
+
 /* Register service worker. */
 registerServiceWorker();
