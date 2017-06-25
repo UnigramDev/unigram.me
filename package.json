@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build & sw-precache --root=\"build/\" --static-file-globs=\"build/**/!(*_redirects*)\"",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
