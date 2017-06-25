@@ -4,15 +4,18 @@
  * Licensed under MIT 
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
-#main-nav {
+.navbar {
   height: 48px;
   padding-top: 0;
   padding-bottom: 0;
   background-color: var(--main-color);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--main-dark-color);
 }
 
-#main-nav .container {
-  height: 48px;
+.navbar .container {
+  height: inherit;
 }
 
 .navbar-brand {
@@ -21,47 +24,53 @@
   color: white;
 }
 
-.navbar-nav {
-  height: 48px;
-}
-
 .navbar-brand img {
   width: 24px;
   margin-right: 8px;
 }
 
-.nav-link {
-  color: white;
+.navbar-nav {
+  height: inherit;
 }
 
-  .navbar-brand:hover {
-    color: white;
-    text-decoration-style: none;
-  }
+/* Links decorations on hover and other interactions. */
+.nav-link,
+.nav-link:link,
+.nav-link:visited,
+.nav-link:hover,
+.nav-link:active,
+.navbar-brand,
+.navbar-brand:link,
+.navbar-brand:visited,
+.navbar-brand:hover,
+.navbar-brand:active {
+  color: white;
+  text-decoration-style: none;
+}
+
+.nav-item:hover {
+  background-color: var(--main-dark-color);
+}
 
 @media (min-width: 992px){
   .navbar-toggleable-md .navbar-collapse {
     width: auto;
   }
+
   .nav-item {
     padding-left: 8px;
     padding-right: 8px;
     font-weight: 200;
   }
+
   .nav-link {
     padding-top: 12px;
     padding-bottom: 12px;
   }
+
   .nav-link .mdl2 {
     visibility: collapse;
     width: 0;
-  }
-  .nav-item:hover {
-    background-color: var(--main-dark-color);
-  }
-  .nav-link:hover {
-    color: white;
-    text-decoration-style: none;
   }
 }
 
@@ -71,8 +80,16 @@
     padding-right: 0;
   }
 
+  .navbar .container {
+    width: 100%;
+    text-align: center;
+  }
+
   .navbar-nav {
     height: auto;
+    margin-top: 0;
+    text-align: left;
+    background-color: var(--main-color);
   }
 
   .navbar-toggler {
@@ -99,20 +116,6 @@
     margin-right: 0;
   }
 
-  .navbar .container {
-    width: 100%;
-    text-align: center;
-  }
-
-  .navbar-nav {
-    margin-top: 0;
-    text-align: left;
-    background-color: var(--main-color);
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: var(--main-dark-color);
-  }
-
   .nav-link .mdl2 {
     visibility: visible;
     padding-right: 16px;
@@ -126,14 +129,5 @@
     padding-top: 5px;
     padding-bottom: 5px;
     font-weight: 200;
-  }
-
-  li.nav-item:hover {
-    background-color: var(--main-dark-color);
-  }
-
-  .nav-link:hover {
-    color: white;
-    text-decoration-style: none;
   }
 }
