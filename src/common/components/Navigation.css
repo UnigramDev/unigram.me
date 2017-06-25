@@ -37,7 +37,7 @@
   }
   .nav-link:hover {
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
@@ -75,8 +75,6 @@
 
   .navbar-nav {
     margin-top: 6px;
-    padding-left: 16px;
-    padding-right: 16px;
     text-align: left;
     background-color: var(--main-color);
     border-top-width: 1px;
@@ -92,9 +90,19 @@
   }
   
   li.nav-item {
-    margin-left: -2px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-weight: 200;
+  }
+
+  li.nav-item:hover {
+    background-color: var(--main-dark-color);
+  }
+
+  .nav-link:hover {
+    color: white;
+    text-decoration-style: none;
   }
 }

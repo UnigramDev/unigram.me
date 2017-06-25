@@ -1,5 +1,5 @@
 {
-    "name": "Unigram",
+    "name": "Unigram - Official Website",
     "short_name": "Unigram",
     "icons": [
         {
@@ -16,5 +16,5 @@
     "theme_color": "#0f7dc7",
     "background_color": "#0f7dc7",
     "display": "standalone",
-    "start_url": "./index.html"
+    "start_url": "/"
 }
