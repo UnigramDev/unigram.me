@@ -18,7 +18,7 @@ const PrivacyPage = () => (
     <div className="privacy-root">
       <div className="container">
         <div className="privacy-heading">
-          <h1>Privacy Policy</h1>
+          <h2>Privacy Policy</h2>
           <p className="privacy-update">Last Updated: <b>{Const.privacyUpdate}</b></p>
           <p className="text-muted sh2">
             You don't have to take our word on all of this. Unigram is an open source 

@@ -16,3 +16,10 @@
 .faq-body h3 {
   margin-top: 32px;
 }
+
+@media (max-width: 768px) {
+  .faq-root {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+}

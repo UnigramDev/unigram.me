@@ -19,7 +19,7 @@ const FaqPage = () => (
     <div className="faq-root">
       <div className="container">
         <div className="faq-heading">
-          <h1>Frequently Asked Questions</h1>
+          <h2>Frequently Asked Questions</h2>
           <p className="faq-update">
             Last Updated: <b>{Const.faqUpdate}</b>
           </p>

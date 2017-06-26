@@ -6,7 +6,7 @@
  */
 .support-root {
   padding-top: 80px;
-  padding-bottom: 48px;
+  padding-bottom: 40px;
 }
 
 .support-logo {
@@ -43,8 +43,8 @@
 
 @media (max-width: 768px) {
   .support-root {
-    padding-top: 40px;
-    padding-bottom: 48px;
+    padding-top: 0;
+    padding-bottom: 40px;
   }
 
   .support-logo {
