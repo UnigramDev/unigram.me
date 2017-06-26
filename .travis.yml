@@ -12,6 +12,6 @@ cache:
     - node_modules
 script:
   - npm test
-  - npm run build
+  - npm run build-travis
 notifications:
   email: false
