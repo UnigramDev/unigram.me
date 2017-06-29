@@ -16,7 +16,7 @@ import './AboutDigest.css';
 class AboutDigest extends Component {
   render() {
     return (
-      <div className="aboutdigest-root" classID="#aboutdigest">
+      <div className="aboutdigest-root" id="#aboutdigest">
         <div className="container">
           <h1 className="featuredigest-header">Truly universal</h1>
           <div className="featuredigest-subheader sh1">

@@ -10,7 +10,7 @@
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 import React, { Component } from 'react';
-import * as Const from '../../../common/data/Constants';
+import * as Const from '../data/Constants';
 import './Hero.css';
 
 class Hero extends Component {
@@ -22,17 +22,10 @@ class Hero extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-md-6 col-lg-6">
-                  <h1>Unigram</h1>
-                  <div className="sh1">
-                    The Telegram client for Windows 10
-                  </div>
-                  <div className="jumbotron-btn-group">
-                    <a className="btn btn-primary" href={Const.DownloadLink}>Download</a>
-                    <a className="btn btn-secondary" href="#aboutdigest">Learn more</a>
-                  </div>
+                  {this.props.part1}
                 </div>
                 <div className="col-md-6 col-lg-6">
-                  <img src="img/Laptop_Mobile_Combo.png" alt=""/>
+                  {this.props.part2}
                 </div>
               </div>
             </div>

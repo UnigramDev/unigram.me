@@ -6,7 +6,8 @@
 Landing page for [Unigram](https://github.com/UnigramDev/Unigram). It gives an overview of the application's features and provides some basic info on the project and it's team.
 
 ## Features
-- Adaptive design that works on both small and large devices (check [Am I Responsive?](http://ami.responsivedesign.is/?url=http://unigram.me))
+- Adaptive design that works on both small and large devices (check [Am I Responsive?](http://ami.responsivedesign.is/?url=http://unigram.me)).
+- Progressive Web App (PWA): offline capabilities with app-like feel if pinned to desktop/home.
 - Social sharing metadata for sharing cards.
 - Themed screenshots: classical composers. Can you find which composer is the user? There is a hint in one screenshot.
 - Platform specific favicons for saving on home/desktop/favorites (Android, iOS, Windows 10, Apple touch bar, Opera Speed dial).
@@ -30,6 +31,7 @@ This website uses the following frameworks and tools:
   * `react-dom`
   * `react-router-dom`
   * `react-scripts`
+  * `sw-precache`
 
 ## Contributing
 The addition of new sections and features is reserved to the Unigram Development Team, however bug and performance related contributions are warmly welcome.
