@@ -11,6 +11,7 @@
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'; 
 import './AboutDigest.css';
 
 class AboutDigest extends Component {
@@ -36,7 +37,7 @@ class AboutDigest extends Component {
                 Since day one, Unigram is a community driven project and it continues to grow
                 thanks to its large number of fans and enthusiasts. Join our Unigram Insiders 
                 Group and partecipate in the making of Unigram!<br/>
-                <a className="btn btn-primary" href="#community">Learn about the Community</a>
+                <Link className="btn btn-primary" to={'/community'}>Learn about the Community</Link>
               </p>
             </div>
           </div>

@@ -6,9 +6,10 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import AboutDigest from '../AboutDigest';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<AboutDigest />, div);
+  ReactDOM.render(<Router><AboutDigest /></Router>, div);
 });
