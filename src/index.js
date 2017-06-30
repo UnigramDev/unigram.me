@@ -13,17 +13,21 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
+import registerServiceWorker from './registerServiceWorker';
+import './index.css'; 
+/* Common components. */
 import Navigation from './common/components/Navigation';
 import Footer from './common/components/Footer';
-import registerServiceWorker from './registerServiceWorker';
+import ScrollToTop from './common/components/ScrollToTop';
+import NotFound from './common/components/NotFound';
+/* Pages. */
 import HomePage from './pages/home/HomePage';
 import PrivacyPage from './pages/privacy/PrivacyPage';
 import SupportPage from './pages/support/SupportPage';
 import FaqPage from './pages/faq/FaqPage';
-import ScrollToTop from './common/components/ScrollToTop';
-import NotFound from './common/components/NotFound';
-import './index.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; 
+import CommunityPage from './pages/community/CommunityPage';
+/* Navigation. */
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 /* All navigation paths. Switch is necessary in order to match one possible
    path and avoid displaying the NotFound page when not intended. */
@@ -36,6 +40,7 @@ const NavigationRules = () => (
         <Route path="/privacy" component={PrivacyPage}/>
         <Route path="/support" component={SupportPage}/>
         <Route path="/faq" component={FaqPage}/>
+        <Route path="/community" component={CommunityPage}/>
         <Route component={NotFound} />
       </Switch>
       <Footer/>

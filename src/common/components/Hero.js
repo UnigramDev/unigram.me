@@ -10,7 +10,6 @@
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 import React, { Component } from 'react';
-import * as Const from '../data/Constants';
 import './Hero.css';
 
 class Hero extends Component {
@@ -24,7 +23,7 @@ class Hero extends Component {
                 <div className="col-md-6 col-lg-6">
                   {this.props.part1}
                 </div>
-                <div className="col-md-6 col-lg-6">
+                <div className="hero-part2 col-md-6 col-lg-6">
                   {this.props.part2}
                 </div>
               </div>
