@@ -12,6 +12,8 @@
 import React from 'react';
 import Hero from '../../common/components/Hero';
 import * as Const from '../../common/data/Constants';
+import TeamMember from './components/TeamMember';
+import TeamMemberData from './data/TeamMemberData';
 import './CommunityPage.css';
 
 /* First part of the Hero component: text and buttons. */
@@ -37,6 +39,12 @@ const hero2 = (
   <img src="/img/insider_logo.gif" alt="Unigram Logo" width="50%"/>
 );
 
+/* Team members. */
+var members = initMembers();
+// Recursively create Project components.
+var memberComponents = members.map(member =>
+  <TeamMember value={member} key={member.id}/>
+);
 
 const CommunityPage = () => (
   <div className="main">
@@ -101,79 +109,25 @@ const CommunityPage = () => (
         </div>
         <div className="col-lg-12 text center">
             <div className="row">
-              <div className="col-lg-4 col-md-6 col-sm-6">
-                <div className="team-member">
-                  <img className="rounded-circle" src="img/team/rick.jpg" alt="Rick Drijvers profile picture"/>
-                  <h3>Rick Drijvers</h3>
-                  <p className="text-muted">Project founder</p>
-                  <a className="fa fa-twitter" href="https://twitter.com/IkaragoDev"></a>
-                  <a className="fa fa-linkedin" href="https://www.linkedin.com/in/rick-drijvers-249694133/"></a>
-                  <a className="fa fa-github" href="https://github.com/ikarago"></a>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-6">
-                <div className="team-member">
-                  <img className="rounded-circle" src="img/team/fela.jpg" alt="Fela Ameghino profile picture"/>
-                  <h3>Fela Ameghino</h3>
-                  <p className="text-muted">Lead developer</p>
-                  <a className="fa fa-twitter" href="https://twitter.com/FrayxRulez"></a>
-                  <a className="fa fa-linkedin" href="https://www.linkedin.com/in/felameghino/"></a>
-                  <a className="fa fa-github" href="https://github.com/FrayxRulez"></a>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-6">
-                <div className="team-member">
-                  <img className="rounded-circle" src="img/team/kesava.jpg" alt="Kesava Prasad Arul profile picture"/>
-                  <h3>Kesava Prasad Arul</h3>
-                  <p className="text-muted">Core developer</p>
-                  <a className="fa fa-twitter" href="https://twitter.com/kesavarul"></a>
-                  <a className="fa fa-github" href="https://github.com/kesavaprasadarul"></a>
-                  <a className="fa fa-facebook" href="https://www.facebook.com/kesavaprasadarul"></a>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-6">
-                <div className="team-member">
-                  <img className="rounded-circle" src="img/team/saurav.jpg" alt="Saurav Srivastava profile picture"/>
-                  <h3>Saurav Srivastava</h3>
-                  <p className="text-muted">UI/UX engineer</p>
-                  <a className="fa fa-twitter" href="https://twitter.com/gx_saurav"></a>
-                  <a className="fa fa-behance" href="https://www.behance.net/gxsaurav"></a>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-6">
-                <div className="team-member">
-                  <img className="rounded-circle" src="img/team/matei.jpg" alt="Matei Radu profile picture"/>
-                  <h3>Matei Radu</h3>
-                  <p className="text-muted">Core, Web developer</p>
-                  <a className="fa fa-twitter" href="https://twitter.com/matei_dev"></a>
-                  <a className="fa fa-linkedin" href="https://www.linkedin.com/in/mateibogdanradu/"></a>
-                  <a className="fa fa-github" href="https://github.com/mateiradu"></a>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6 col-sm-6">
-                <div className="team-member">
-                  <img className="rounded-circle" src="img/team/abdel.jpg" alt="Abdel Daoudi profile picture"/>
-                  <h3>Abdel Daoudi</h3>
-                  <p className="text-muted">Core developer</p>
-                  <a className="fa fa-twitter" href="https://twitter.com/ADeltaXForce"></a>
-                  <a className="fa fa-github" href="https://github.com/ADeltaX"></a>
-                </div>
-              </div>
-              <div className="col-lg-12">
-                <div className="team-member">
-                  <img className="rounded-circle" src="img/team/lorenzo.jpg" alt="Lorenzo Rossoni profile picture"/>
-                  <h3>Lorenzo Rossoni</h3>
-                  <p className="text-muted">Senior core developer</p>
-                  <a className="fa fa-twitter" href="https://twitter.com/LorenzRox"></a>
-                  <a className="fa fa-linkedin" href="https://www.linkedin.com/in/lorenzo-rossoni"></a>
-                  <a className="fa fa-github" href="https://github.com/lorenzrox"></a>
-                </div>
-              </div>
+              {memberComponents}
             </div>
         </div>
       </div>
     </div>
   </div>
 );
+
+function initMembers() {
+  var members = [];
+  var data = require('./data/TeamMembers.json');
+  for(var i = 0; i < data.length; i++) {
+    var memberJSON = data[i];
+    members.push(new TeamMemberData(memberJSON.id,
+                                    memberJSON.name, 
+                                    memberJSON.role, 
+                                    memberJSON.picture));
+  }
+  return members;
+}
 
 export default CommunityPage;

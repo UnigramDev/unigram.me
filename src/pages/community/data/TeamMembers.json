@@ -1,0 +1,77 @@
+[
+    {
+      "id": 0,
+      "name": "Fela Ameghino",
+      "role": "Lead developer",
+      "picture": "img/team/fela.jpg",
+      "links": [
+          {
+              "twitter": "https://twitter.com/FrayxRulez",
+              "facebook": "NOT_SET",
+              "github": "https://github.com/FrayxRulez",
+              "linkedin": "https://www.linkedin.com/in/felameghino/",
+              "behance": "NOT_SET"
+          }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Rick Drijvers",
+      "role": "Project founder",
+      "picture": "img/team/rick.jpg",
+      "links": [
+          {
+              "twitter": "https://twitter.com/IkaragoDev",
+              "facebook": "NOT_SET",
+              "github": "https://github.com/ikarago",
+              "linkedin": "https://www.linkedin.com/in/rick-drijvers-249694133/",
+              "behance": "NOT_SET"
+          }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Lorenzo Rossoni",
+      "role": "Core developer",
+      "picture": "img/team/lorenzo.jpg",
+      "links": [
+          {
+              "twitter": "https://twitter.com/LorenzRox",
+              "facebook": "NOT_SET",
+              "github": "https://github.com/lorenzrox",
+              "linkedin": "https://www.linkedin.com/in/lorenzo-rossoni",
+              "behance": "NOT_SET"
+          }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Saurav Srivastava",
+      "role": "UI/UX engineer",
+      "picture": "img/team/saurav.jpg",
+      "links": [
+          {
+              "twitter": "https://twitter.com/gx_saurav",
+              "facebook": "NOT_SET",
+              "github": "NOT_SET",
+              "linkedin": "NOT_SET",
+              "behance": "https://www.behance.net/gxsaurav"
+          }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Matei Radu",
+      "role": "Web developer",
+      "picture": "img/team/matei.jpg",
+      "links": [
+          {
+              "twitter": "https://twitter.com/matei_dev",
+              "facebook": "NOT_SET",
+              "github": "https://github.com/mateiradu",
+              "linkedin": "https://www.linkedin.com/in/mateibogdanradu/",
+              "behance": "NOT_SET"
+          }
+      ]
+    }
+]
