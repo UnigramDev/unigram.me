@@ -14,3 +14,11 @@
 .community-root li {
   padding-bottom: 16px;
 }
+
+.team-member {
+  text-align: center;
+}
+
+.rounded-circle {
+  max-width: 128px;
+}

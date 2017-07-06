@@ -18,7 +18,7 @@ import './CommunityPage.css';
 const hero1 = (
   <div>
     <h1>Unigram Insiders Group</h1>
-    <div className="sh1">
+    <div classNameName="sh1">
       Help shape the future of Unigram
     </div>
     <div className="jumbotron-btn-group">
@@ -43,58 +43,134 @@ const CommunityPage = () => (
     <div className="community-root">
       <Hero part1={hero1} part2={hero2}/>
       <div className="container">
-          <h1 className="featuredigest-header">By the Community, for the Communty</h1>
-          <div className="featuredigest-subheader sh1">
-            Be part of the family
-          </div>
-          <p>
-            Unigram is not just the result of a few passionate developers. Since day one, 
-            Unigram is a community driven project and it continues to grow thanks to its 
-            large number of fans and enthusiasts.
-          </p>
-          <p>
-            For this reason we created the <b>Unigram Insiders Group</b>, a public group
-            where all enthusiasts can gather and talk about our favorite Windows messaging
-            app.
-          </p>
-          <p>
-            But what can you do in the group?
-          </p>
-          <p>
-            <ul>
-              <li>
-                <b>
-                  Talk with the developers
-                </b>
-                <br/>
-                Give feedback on the app, report bugs and get support directly from the 
-                developers or from experienced users.
-              </li>
-              <li>
-                <b>
-                  Discuss ideas, features and the future of Unigram
-                </b>
-                <br/>
-                Share your ideas on how you think Unigram can become an even better app.
-                Any kind of input helps!
-              </li>
-              <li>
-                <b>
-                  Get early builds and sneak peeks
-                </b>
-                <br/>
-                Sneak peeks and early builds are regularly shared by the developers to get
-                an initial feedback from you.
-              </li>
-            </ul>
-          </p>
-          <p>
-            What are you waiting for? Join the family and help us shape the future of 
-            Unigram!<br/>
-            <a className="btn btn-primary" href={Const.insidersGroupLink}>
-              Join the Insiders Group
-            </a>
-          </p>
+        <h1 className="featuredigest-header">By the Community, for the Communty</h1>
+        <div className="featuredigest-subheader sh1">
+          Be part of the family
+        </div>
+        <p>
+          Unigram is not just the result of a few passionate developers. Since day one, 
+          Unigram is a community driven project and it continues to grow thanks to its 
+          large number of fans and enthusiasts.
+        </p>
+        <p>
+          For this reason we created the <b>Unigram Insiders Group</b>, a public group
+          where all enthusiasts can gather and talk about our favorite Windows messaging
+          app.
+        </p>
+        <p>
+          But what can you do in the group?
+        </p>
+        <p>
+          <ul>
+            <li>
+              <b>
+                Talk with the developers
+              </b>
+              <br/>
+              Give feedback on the app, report bugs and get support directly from the 
+              developers or from experienced users.
+            </li>
+            <li>
+              <b>
+                Discuss ideas, features and the future of Unigram
+              </b>
+              <br/>
+              Share your ideas on how you think Unigram can become an even better app.
+              Any kind of input helps!
+            </li>
+            <li>
+              <b>
+                Get early builds and sneak peeks
+              </b>
+              <br/>
+              Sneak peeks and early builds are regularly shared by the developers to get
+              an initial feedback from you.
+            </li>
+          </ul>
+        </p>
+        <p>
+          What are you waiting for? Join the family and help us shape the future of 
+          Unigram!<br/>
+          <a className="btn btn-primary" href={Const.insidersGroupLink}>
+            Join the Insiders Group
+          </a>
+        </p>
+        <h1 className="featuredigest-header">The Team</h1>
+        <div className="featuredigest-subheader sh1">
+          The faces behind Unigram
+        </div>
+        <div className="col-lg-12 text center">
+            <div className="row">
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="team-member">
+                  <img className="rounded-circle" src="img/team/rick.jpg" alt="Rick Drijvers profile picture"/>
+                  <h3>Rick Drijvers</h3>
+                  <p className="text-muted">Project founder</p>
+                  <a className="fa fa-twitter" href="https://twitter.com/IkaragoDev"></a>
+                  <a className="fa fa-linkedin" href="https://www.linkedin.com/in/rick-drijvers-249694133/"></a>
+                  <a className="fa fa-github" href="https://github.com/ikarago"></a>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="team-member">
+                  <img className="rounded-circle" src="img/team/fela.jpg" alt="Fela Ameghino profile picture"/>
+                  <h3>Fela Ameghino</h3>
+                  <p className="text-muted">Lead developer</p>
+                  <a className="fa fa-twitter" href="https://twitter.com/FrayxRulez"></a>
+                  <a className="fa fa-linkedin" href="https://www.linkedin.com/in/felameghino/"></a>
+                  <a className="fa fa-github" href="https://github.com/FrayxRulez"></a>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="team-member">
+                  <img className="rounded-circle" src="img/team/kesava.jpg" alt="Kesava Prasad Arul profile picture"/>
+                  <h3>Kesava Prasad Arul</h3>
+                  <p className="text-muted">Core developer</p>
+                  <a className="fa fa-twitter" href="https://twitter.com/kesavarul"></a>
+                  <a className="fa fa-github" href="https://github.com/kesavaprasadarul"></a>
+                  <a className="fa fa-facebook" href="https://www.facebook.com/kesavaprasadarul"></a>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="team-member">
+                  <img className="rounded-circle" src="img/team/saurav.jpg" alt="Saurav Srivastava profile picture"/>
+                  <h3>Saurav Srivastava</h3>
+                  <p className="text-muted">UI/UX engineer</p>
+                  <a className="fa fa-twitter" href="https://twitter.com/gx_saurav"></a>
+                  <a className="fa fa-behance" href="https://www.behance.net/gxsaurav"></a>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="team-member">
+                  <img className="rounded-circle" src="img/team/matei.jpg" alt="Matei Radu profile picture"/>
+                  <h3>Matei Radu</h3>
+                  <p className="text-muted">Core, Web developer</p>
+                  <a className="fa fa-twitter" href="https://twitter.com/matei_dev"></a>
+                  <a className="fa fa-linkedin" href="https://www.linkedin.com/in/mateibogdanradu/"></a>
+                  <a className="fa fa-github" href="https://github.com/mateiradu"></a>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="team-member">
+                  <img className="rounded-circle" src="img/team/abdel.jpg" alt="Abdel Daoudi profile picture"/>
+                  <h3>Abdel Daoudi</h3>
+                  <p className="text-muted">Core developer</p>
+                  <a className="fa fa-twitter" href="https://twitter.com/ADeltaXForce"></a>
+                  <a className="fa fa-github" href="https://github.com/ADeltaX"></a>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="team-member">
+                  <img className="rounded-circle" src="img/team/lorenzo.jpg" alt="Lorenzo Rossoni profile picture"/>
+                  <h3>Lorenzo Rossoni</h3>
+                  <p className="text-muted">Senior core developer</p>
+                  <a className="fa fa-twitter" href="https://twitter.com/LorenzRox"></a>
+                  <a className="fa fa-linkedin" href="https://www.linkedin.com/in/lorenzo-rossoni"></a>
+                  <a className="fa fa-github" href="https://github.com/lorenzrox"></a>
+                </div>
+              </div>
+            </div>
+        </div>
       </div>
     </div>
   </div>
