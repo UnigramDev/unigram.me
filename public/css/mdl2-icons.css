@@ -6,7 +6,7 @@
 @font-face {
   font-family: 'MDL2';
   src: url("../fonts/mdl2.eot?v=1.0.0");
-  src: url("../fonts/mdl2.eot?#iefix&v=1.0.0") format("embedded-opentype"), url("../fonts/mdl2.woff2?v=1.0.0") format("woff2"), url("../fonts/mdl2.woff?v=1.0.0") format("woff"), url("../fonts/mdl2.ttf?v=1.0.0") format("truetype"), url("../fonts/mdl2.svg?v=1.0.0#mdl2regular") format("svg");
+  src: url("../fonts/mdl2.eot?#iefix&v=1.0.0") format("embedded-opentype"), url("../fonts/mdl2.woff?v=1.0.0") format("woff"), url("../fonts/mdl2.ttf?v=1.0.0") format("truetype"), url("../fonts/mdl2.svg?v=1.0.0#mdl2regular") format("svg");
   font-weight: normal;
   font-style: normal; }
 

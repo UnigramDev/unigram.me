@@ -47,6 +47,7 @@ Open a [new issue](https://github.com/UnigramDev/unigram.me/issues/new) or if yo
 ## Credits
 - [Jakub Steplowski](https://www.behance.net/jakubsteplowski) for the the mockups: [Lumia 950](https://www.behance.net/gallery/34545883/Microsoft-Lumia-950-Flat-Mockup-PSD-(v10)), [HP Elite X3](https://www.behance.net/gallery/38726153/HP-Elite-x3-Mockup-PSD).
 - [Compressor.io](https://compressor.io/) for lossless image compression.
+- [Scott Dorman](https://github.com/scottdorman) for the [MDL2 Icons](https://github.com/scottdorman/mdl2-icons).
 
 ## License
 [MIT](https://github.com/UnigramDev/unigram.me/blob/master/LICENSE) License
