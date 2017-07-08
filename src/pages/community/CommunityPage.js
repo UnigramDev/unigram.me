@@ -20,7 +20,7 @@ import './CommunityPage.css';
 const hero1 = (
   <div>
     <h1>Unigram Insiders Group</h1>
-    <div classNameName="sh1">
+    <div className="sh1">
       Help shape the future of Unigram
     </div>
     <div className="jumbotron-btn-group">
