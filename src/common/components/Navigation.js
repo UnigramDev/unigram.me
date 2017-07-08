@@ -18,7 +18,7 @@ import './Navigation.css';
 class Navigation extends Component {
   constructor(props) {
     super(props);
-    this.toggleMenu = this.toggleMenu.bind(this);
+    this.collapseMenu = this.collapseMenu.bind(this);
     this.toggleMenuButton = this.toggleMenuButton.bind(this);
     this.state = {
       active: false,
@@ -28,14 +28,8 @@ class Navigation extends Component {
   /**
    * Collapse the menu when a menu link is clicked.
    */
-  toggleMenu() {
-    const currentState = this.state.active;
-    console.log("current state: " + currentState);
-    if(currentState) {
-      this.setState({ active: !currentState });
-    } else {
-      this.setState({ active: false });
-    }
+  collapseMenu() {
+    this.setState({ active: false });
   };
 
 /**
@@ -56,22 +50,22 @@ class Navigation extends Component {
           <div className={this.state.active ? 'navbar-collapse collapse show': 'navbar-collapse collapse'} id="navbarExample">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link className="nav-link" to={'/features'} onClick={this.toggleMenu}>
+                <Link className="nav-link" to={'/features'} onClick={this.collapseMenu}>
                   <i className="mdl2 mdl2-favorite-list" aria-hidden="true"></i>Features
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href={Const.DownloadLink} onClick={this.toggleMenu}>
+                <a className="nav-link" href={Const.DownloadLink} onClick={this.collapseMenu}>
                   <i className="mdl2 mdl2-download" aria-hidden="true"></i>Download
                 </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to={'/community'} onClick={this.toggleMenu}>
+                <Link className="nav-link" to={'/community'} onClick={this.collapseMenu}>
                   <i className="mdl2 mdl2-people" aria-hidden="true"></i>Community
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to={'/support'} onClick={this.toggleMenu}>
+                <Link className="nav-link" to={'/support'} onClick={this.collapseMenu}>
                   <i className="mdl2 mdl2-accounts" aria-hidden="true"></i>Support
                 </Link>
               </li>
