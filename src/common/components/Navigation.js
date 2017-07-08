@@ -44,7 +44,7 @@ class Navigation extends Component {
     return (
       <nav className="navbar fixed-top navbar-toggleable-md">
         <div className="container">
-          <Link className="navbar-brand" to={'/'}>
+          <Link className="navbar-brand" to={'/'} onClick={this.collapseMenu}>
             <img src="img/buttons/unigram.svg" alt="Unigram Logo"/>Unigram
           </Link>
           <div className={this.state.active ? 'navbar-collapse collapse show': 'navbar-collapse collapse'} id="navbarExample">
