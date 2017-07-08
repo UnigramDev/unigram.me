@@ -33,6 +33,10 @@
   height: inherit;
 }
 
+.navbar-collapse {
+  transition: all 0.5s;
+}
+
 /* Links decorations on hover and other interactions. */
 .nav-link,
 .nav-link:link,
