@@ -15,23 +15,36 @@ import { Link } from 'react-router-dom';
 import './Navigation.css';
 
 
-
 class Navigation extends Component {
   constructor(props) {
     super(props);
-    this.toggleMenu= this.toggleMenu.bind(this);
+    this.toggleMenu = this.toggleMenu.bind(this);
+    this.toggleMenuButton = this.toggleMenuButton.bind(this);
     this.state = {
       active: false,
     };
   }
 
   /**
-   * Toggle the menu on small screens.
+   * Collapse the menu when a menu link is clicked.
    */
   toggleMenu() {
     const currentState = this.state.active;
-    this.setState({ active: !currentState });
+    console.log("current state: " + currentState);
+    if(currentState) {
+      this.setState({ active: !currentState });
+    } else {
+      this.setState({ active: false });
+    }
   };
+
+/**
+ * Toggle the menu on small screens through the menu button.
+ */
+  toggleMenuButton() {
+    const currentState = this.state.active;
+    this.setState({ active: !currentState });
+  }
 
   render() {
     return (
@@ -65,7 +78,7 @@ class Navigation extends Component {
             </ul>
           </div>
         </div>
-        <button className="navbar-toggler navbar-toggler-left" onClick={this.toggleMenu} type="button" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler navbar-toggler-left" onClick={this.toggleMenuButton} type="button" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
           <img src="img/buttons/menu.svg" alt="Menu icon"/>
         </button>
       </nav>
