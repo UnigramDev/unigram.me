@@ -25,7 +25,7 @@ class AboutDigest extends Component {
           </div>
           <div className="row">
             <div className="col-md-12 col-lg-6">
-              <img src="img/screenshots/desktop-wide-1.png" alt=""/>
+              <img src="img/screenshots/desktop-group-1.png" alt=""/>
             </div>
             <div className="aboutdigest-text col-md-12 col-lg-6">
               <p>

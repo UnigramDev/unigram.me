@@ -4,10 +4,12 @@
  * Licensed under MIT 
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
-.team-member {
+.teammember-root {
+  padding-top: 12px;
+  padding-bottom: 12px;
   text-align: center;
 }
 
-.rounded-circle {
+.teammember-root img {
   max-width: 128px;
 }

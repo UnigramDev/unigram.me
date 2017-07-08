@@ -73,5 +73,35 @@
               "behance": "NOT_SET"
           }
       ]
+    },
+    {
+      "id": 5,
+      "name": "Kesava Prasad Arul",
+      "role": "App developer",
+      "picture": "img/team/kesava.jpg",
+      "links": [
+          {
+              "twitter": "https://twitter.com/kesavarul",
+              "facebook": "https://www.facebook.com/kesavaprasadarul",
+              "github": "https://github.com/kesavaprasadarul",
+              "linkedin": "NOT_SET",
+              "behance": "NOT_SET"
+          }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Abdel Daoudi",
+      "role": "App developer",
+      "picture": "img/team/abdel.jpg",
+      "links": [
+          {
+              "twitter": "https://twitter.com/ADeltaXForce",
+              "facebook": "NOT_SET",
+              "github": "https://github.com/ADeltaX",
+              "linkedin": "NOT_SET",
+              "behance": "NOT_SET"
+          }
+      ]
     }
 ]
