@@ -9,12 +9,10 @@
  * @file Footer component. It displays copyright and license info as well as other website links.
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
-import React from 'react';
-import * as Const from '../data/Constants';
-import { Link } from 'react-router-dom'; 
-import './Footer.css';
-
-var currentYear = new Date().getFullYear();
+import React from 'react'
+import * as Const from '../data/Constants'
+import { Link } from 'react-router-dom'
+import './Footer.css'
 
 const Footer = () => (
   <div className="footer-root">
@@ -53,7 +51,7 @@ const Footer = () => (
       </div>
       <div className="footer-license row"> 
         <div className="col-12">
-          Content Copyright © 2016-{currentYear} Unigram.
+          Content Copyright © 2016-{new Date().getFullYear()} Unigram.
         </div>
         <div className="col-12">
           Designed and built by <a href={Const.mateiGithubLink}>Matei Bogdan Radu</a>, code licensed 
@@ -65,4 +63,4 @@ const Footer = () => (
   </div>
 );
 
-export default Footer;
+export default Footer

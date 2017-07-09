@@ -19,14 +19,10 @@ import './Navigation.css'
 class Navigation extends Component {
   constructor(props) {
     super(props)
-    this.state = {
-      active: false
-    }
+    this.state = { active: false }
     this.showClass = 'navbar-collapse collapse show'
     this.hideClass = 'navbar-collapse collapse'
   }
-
-  
 
   /* Close the menu when the user clicks outside of the menu. */
   handleClickOutside = evt => {

@@ -9,9 +9,9 @@
  * @file Component to display a 404 message.
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './NotFound.css';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import './NotFound.css'
 
 const NotFound = () => (
   <div className="main">
@@ -28,6 +28,6 @@ const NotFound = () => (
       </div>
     </div>
   </div>
-);
+)
 
-export default NotFound;
+export default NotFound

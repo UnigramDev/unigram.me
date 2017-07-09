@@ -9,8 +9,8 @@
  * @file Hero component. It displays a brief but important information with a banner style.
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
-import React, { Component } from 'react';
-import './Hero.css';
+import React, { Component } from 'react'
+import './Hero.css'
 
 class Hero extends Component {
   render() {
@@ -31,8 +31,8 @@ class Hero extends Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default Hero;
+export default Hero
