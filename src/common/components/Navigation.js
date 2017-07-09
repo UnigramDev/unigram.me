@@ -9,25 +9,28 @@
  * @file Navigation bar component.
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
-import React, { Component } from 'react';
-import * as Const from '../data/Constants';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react'
+import * as Const from '../data/Constants'
+import { Link } from 'react-router-dom'
 import onClickOutside from 'react-onclickoutside'
-import './Navigation.css';
+import './Navigation.css'
 
 
 class Navigation extends Component {
   constructor(props) {
-    super(props);
-    this.toggleMenu = this.toggleMenu.bind(this);
+    super(props)
     this.state = {
-      active: false,
-    };
+      active: false
+    }
+    this.showClass = 'navbar-collapse collapse show'
+    this.hideClass = 'navbar-collapse collapse'
   }
+
+  
 
   /* Close the menu when the user clicks outside of the menu. */
   handleClickOutside = evt => {
-    this.toggleMenu(false);
+    this.toggleMenu(false)
   }
 
   /**
@@ -39,10 +42,10 @@ class Navigation extends Component {
     /* If the caller is the menu button use on/off behaviour,
        else always close the menu. */
     if(isMenuButton) {
-      const currentState = this.state.active;
-      this.setState({ active: !currentState });
+      const currentState = this.state.active
+      this.setState({ active: !currentState })
     } else {
-      this.setState({ active: false });
+      this.setState({ active: false })
     }
   }
 
@@ -53,7 +56,7 @@ class Navigation extends Component {
           <Link className="navbar-brand" to={'/'} onClick={() => this.toggleMenu(false)}>
             <img src="img/buttons/unigram.svg" alt="Unigram Logo"/>Unigram
           </Link>
-          <div className={this.state.active ? 'navbar-collapse collapse show': 'navbar-collapse collapse'} id="navbarExample">
+          <div className={ this.state.active ? this.showClass : this.hideClass }>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Link className="nav-link" to={'/features'} onClick={() => this.toggleMenu(false)}>
@@ -82,8 +85,8 @@ class Navigation extends Component {
           <img src="img/buttons/menu.svg" alt="Menu icon"/>
         </button>
       </nav>
-    );
+    )
   }
 }
 
-export default onClickOutside(Navigation);
+export default onClickOutside(Navigation)
