@@ -12,6 +12,7 @@
 import React, { Component } from 'react';
 import * as Const from '../data/Constants';
 import { Link } from 'react-router-dom';
+import onClickOutside from 'react-onclickoutside'
 import './Navigation.css';
 
 
@@ -22,6 +23,11 @@ class Navigation extends Component {
     this.state = {
       active: false,
     };
+  }
+
+  /* Close the menu when the user clicks outside of the menu. */
+  handleClickOutside = evt => {
+    this.toggleMenu(false);
   }
 
   /**
@@ -72,7 +78,7 @@ class Navigation extends Component {
             </ul>
           </div>
         </div>
-        <button className="navbar-toggler navbar-toggler-left" onClick={() => this.toggleMenu(true)} type="button" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler navbar-toggler-left" onClick={() => this.toggleMenu(true)}>
           <img src="img/buttons/menu.svg" alt="Menu icon"/>
         </button>
       </nav>
@@ -80,4 +86,4 @@ class Navigation extends Component {
   }
 }
 
-export default Navigation;
+export default onClickOutside(Navigation);
