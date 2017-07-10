@@ -5,7 +5,9 @@
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
 .aboutdigest-root {
+  margin-top: -40px;
   padding-bottom: 20px;
+  padding-top: 52px;
 }
 .aboutdigest-root img {
   width: 100%;
