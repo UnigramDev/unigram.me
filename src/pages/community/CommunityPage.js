@@ -68,34 +68,32 @@ const CommunityPage = () => (
         <p>
           But what can you do in the group?
         </p>
-        <p>
-          <ul>
-            <li>
-              <b>
-                Talk with the developers
-              </b>
-              <br/>
-              Give feedback on the app, report bugs and get support directly from the 
-              developers or from experienced users.
-            </li>
-            <li>
-              <b>
-                Discuss ideas, features and the future of Unigram
-              </b>
-              <br/>
-              Share your ideas on how you think Unigram can become an even better app.
-              Any kind of input helps!
-            </li>
-            <li>
-              <b>
-                Get early builds and sneak peeks
-              </b>
-              <br/>
-              Sneak peeks and early builds are regularly shared by the developers to get
-              an initial feedback from you.
-            </li>
-          </ul>
-        </p>
+        <ul>
+          <li>
+            <b>
+              Talk with the developers
+            </b>
+            <br/>
+            Give feedback on the app, report bugs and get support directly from the 
+            developers or from experienced users.
+          </li>
+          <li>
+            <b>
+              Discuss ideas, features and the future of Unigram
+            </b>
+            <br/>
+            Share your ideas on how you think Unigram can become an even better app.
+            Any kind of input helps!
+          </li>
+          <li>
+            <b>
+              Get early builds and sneak peeks
+            </b>
+            <br/>
+            Sneak peeks and early builds are regularly shared by the developers to get
+            an initial feedback from you.
+          </li>
+        </ul>
         <p>
           What are you waiting for? Join the family and help us shape the future of 
           Unigram!<br/>
