@@ -41,7 +41,7 @@
   list-style-type: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .support-root {
     padding-top: 0;
     padding-bottom: 40px;
