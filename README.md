@@ -34,6 +34,9 @@ This website uses the following frameworks and tools:
 ## Contributing
 Please read through our [contributing guidelines](https://github.com/UnigramDev/unigram.me/blob/v2/CONTRIBUTING.md). Included are directions for opening issues, bug and feature requests, and notes on pull requests.
 
+## Changelog
+See the [Releases section of this repo](https://github.com/UnigramDev/unigram.me/releases) for changelogs for each release version of the Unigram website. 
+
 ## Creators
 **Matei Radu**
 
