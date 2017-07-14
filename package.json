@@ -1,6 +1,6 @@
 {
   "name": "unigram",
-  "version": "2.0.0-alpha.46",
+  "version": "2.0.0-alpha.47",
   "author": "Matei Bogdan Radu <matei.radu.92@gmail.com>",
   "license": "MIT",
   "repository": {
@@ -8,6 +8,7 @@
     "url": "https://github.com/UnigramDev/unigram.me.git"
   },
   "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-onclickoutside": "^6.1.1",

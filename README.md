@@ -1,5 +1,5 @@
 # Official Unigram website
-[![Build Status](https://travis-ci.org/UnigramDev/unigram.me.svg?branch=v2)](https://travis-ci.org/UnigramDev/unigram.me) [![bitHound Dependencies](https://www.bithound.io/github/UnigramDev/unigram.me/badges/dependencies.svg)](https://www.bithound.io/github/UnigramDev/unigram.me/master/dependencies/npm) [![bitHound Dev Dependencies](https://www.bithound.io/github/UnigramDev/unigram.me/badges/devDependencies.svg)](https://www.bithound.io/github/UnigramDev/unigram.me/master/dependencies/npm) [![](https://img.shields.io/badge/Bootstrap-v4.0.0--alpha.6-yellow.svg?colorB=563d7c)](https://v4-alpha.getbootstrap.com/)
+[![Build Status](https://travis-ci.org/UnigramDev/unigram.me.svg?branch=v2)](https://travis-ci.org/UnigramDev/unigram.me) [![bitHound Dependencies](https://www.bithound.io/github/UnigramDev/unigram.me/badges/dependencies.svg)](https://www.bithound.io/github/UnigramDev/unigram.me/master/dependencies/npm) [![bitHound Dev Dependencies](https://www.bithound.io/github/UnigramDev/unigram.me/badges/devDependencies.svg)](https://www.bithound.io/github/UnigramDev/unigram.me/master/dependencies/npm)
 
 The official [Unigram](https://github.com/UnigramDev/Unigram) website. It gives an overview of the application's features and provides some basic info on the project and it's team.
 
@@ -22,14 +22,18 @@ Your site should be running on [localhost:3000](http://localhost:3000) and in an
 ## Dependencies
 This website uses the following frameworks and tools:
 
-* [Bootstrap](https://v4-alpha.getbootstrap.com/)
 * [Node.js](https://nodejs.org/en/) for `npm`
 * [React](https://facebook.github.io/react/), with
+  * `bootstrap`
   * `react`
   * `react-dom`
+  * `react-onclickoutside`
   * `react-router-dom`
+  * `eslint`
   * `react-scripts`
   * `sw-precache`
+
+Check [bithound](https://www.bithound.io/github/UnigramDev/unigram.me/master/dependencies/npm) for more details.
 
 ## Contributing
 Please read through our [contributing guidelines](https://github.com/UnigramDev/unigram.me/blob/v2/CONTRIBUTING.md). Included are directions for opening issues, bug and feature requests, and notes on pull requests.
