@@ -26,8 +26,7 @@ const hero1 = (
       The Telegram client for Windows 10
     </div>
     <div className="jumbotron-btn-group">
-      <a className="btn btn-primary" href={Const.DownloadLink}>Download</a>
-      <a className="btn btn-secondary" href="#aboutdigest">Learn more</a>
+      <a className="btn btn-primary" href={Const.DownloadLink}>Download now <i className="mdl2 mdl2-scroll-chevron-right-bold-legacy" aria-hidden="true"></i></a>
     </div>
   </div>
 );

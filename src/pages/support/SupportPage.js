@@ -31,7 +31,7 @@ const SupportPage = () => (
               Join our community and have a chance to talk with our most expert Insider 
               members and with the development team.
             </p>
-            <a className="btn btn-primary" href={Const.insidersGroupLink}>Join the group</a>
+            <a className="btn btn-primary" href={Const.insidersGroupLink}>Join the group <i className="mdl2 mdl2-scroll-chevron-right-bold-legacy" aria-hidden="true"></i></a>
           </div>
         </div>
         <h3>More support options</h3>

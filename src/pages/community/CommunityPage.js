@@ -25,10 +25,7 @@ const hero1 = (
     </div>
     <div className="jumbotron-btn-group">
       <a className="btn btn-primary" href={Const.insidersGroupLink}>
-        Join the Insiders Group
-      </a>
-      <a className="btn btn-secondary" href="#aboutdigest">
-        Learn more
+        Join the Insiders Group <i className="mdl2 mdl2-scroll-chevron-right-bold-legacy" aria-hidden="true"></i>
       </a>
     </div>
   </div>
@@ -98,7 +95,7 @@ const CommunityPage = () => (
           What are you waiting for? Join the family and help us shape the future of 
           Unigram!<br/>
           <a className="btn btn-primary" href={Const.insidersGroupLink}>
-            Join the Insiders Group
+            Join the Insiders Group <i className="mdl2 mdl2-scroll-chevron-right-bold-legacy" aria-hidden="true"></i>
           </a>
         </p>
         <h1 className="featuredigest-header">The Team</h1>

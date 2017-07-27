@@ -37,7 +37,7 @@ class AboutDigest extends Component {
                 Since day one, Unigram is a community driven project and it continues to grow
                 thanks to its large number of fans and enthusiasts. Join our Unigram Insiders 
                 Group and partecipate in the making of Unigram!<br/>
-                <Link className="btn btn-primary" to={'/community'}>Learn about the Community</Link>
+                <Link className="btn btn-primary" to={'/community'}>Learn about the Community <i className="mdl2 mdl2-scroll-chevron-right-bold-legacy" aria-hidden="true"></i></Link>
               </p>
             </div>
           </div>
