@@ -1,0 +1,41 @@
+.feature-root {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.feature-root img {
+  max-height: 600px;
+}
+
+.feature-device-horiz {
+  text-align: right;    
+}
+
+.feature-device-verti {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.feature-text-horiz {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.feature-text-verti {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .feature-root {
+    text-align: center;
+  }
+  .feature-device-horiz {
+    margin-top: 32px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .feature-root img {
+    max-height: 480px;
+  }
+}
