@@ -1,36 +1,36 @@
 [
     {
       "id": 0,
-      "title": "Calls",
-      "descr": "Make HD end-to-end encrypted calls anywhere in the world.",
+      "title": "Voice Calls",
       "horizontal": true,
+      "descr": "Call your friends and family anywhere in the world, freely and securely thanks to end-to-end encryption. Calling uses your phone’s Internet connection rather than your cellular plan’s voice minutes. Data charges may apply.",
       "pic": "img/screenshots/devices/calls-mobile.png"
     },
     {
       "id": 1,
       "title": "Share Media",
-      "descr": "Send pictures, videos, files and music up to 1.5GB each.",
+      "descr": "Send pictures, videos, documents and music, without any limits on their type and size. No need to manually backup your chat history and files - everything will be securely stored in the Telegram cloud for as long as you need it.",
       "horizontal": false,
       "pic": "img/screenshots/devices/media-desktop.png"
     },
     {
       "id": 2,
       "title": "Stickers & GIFs",
-      "descr": "Send colorful stickers and animated images like it's the 90s all over again!",
+      "descr": "Send lovely, goofy, adorable, weird and expressive stickers to say just about anything or send GIFs like it's the 90s all over again!",
       "horizontal": true,
       "pic": "img/screenshots/devices/stickers-gifs-mobile.png"
     },
     {
       "id": 3,
       "title": "The more the marrier",
-      "descr": "Join and create groups and supergroups with your friends for up to 10,000 members with powerful admin tools. Channels are also a great idea for large audiences.",
+      "descr": "Create group chats for up to 10,000 members with powerful fine grained admin tools. Broadcast public messages to even larger audiences with Channels.",
       "horizontal": false,
       "pic": "img/screenshots/devices/multi-desktop.png"
     },
     {
       "id": 4,
-      "title": "BOTs",
-      "descr": "Third-party services that run inside your chat, useful for all kind of needs: games, pictures, news, tools.",
+      "title": "Bots",
+      "descr": "Access third-party services directly in Unigram with bots. They will provide many types of services – polls, news, games, integrations, e-butlers or cat images. Any dream can come true with bots.",
       "horizontal": true,
       "pic": "img/screenshots/devices/bots-mobile.png"
     }

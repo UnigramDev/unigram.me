@@ -24,7 +24,7 @@ class Feature extends Component {
           <div className="row">
           <div className={ this.props.value.horizontal ? this.textHoriz : this.textVerti }>
             <h2>{this.props.value.title}</h2>
-            <div className="sh2">{this.props.value.descr}</div>
+            <div className="sh3">{this.props.value.descr}</div>
           </div>
           <div className={ this.props.value.horizontal ? this.devHoriz : this.devVerti }>
             <img src={this.props.value.pic} alt="device"/>
