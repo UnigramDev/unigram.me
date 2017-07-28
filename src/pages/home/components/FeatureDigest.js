@@ -11,6 +11,7 @@
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import FeatureDigestData from "../data/FeatureDigestData";
 import FeatureDigestItem from "./FeatureDigestItem";
 import './FeatureDigest.css';
@@ -35,7 +36,7 @@ class FeatureDigest extends Component {
               <div className="featuredigest-feature-title">
                 ...and much, much more!
               </div>
-              <a className="btn btn-primary" href="#dummylink">Explore all features <i className="mdl2 mdl2-scroll-chevron-right-bold-legacy" aria-hidden="true"></i></a>
+              <Link className="btn btn-primary" to={'/features'}>Explore all features <i className="mdl2 mdl2-scroll-chevron-right-bold-legacy" aria-hidden="true"></i></Link>
             </div>
           </div>
         </div>

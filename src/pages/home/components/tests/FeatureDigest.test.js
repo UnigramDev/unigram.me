@@ -6,9 +6,10 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import FeatureDigest from '../FeatureDigest';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<FeatureDigest />, div);
+  ReactDOM.render(<Router><FeatureDigest /></Router>, div);
 });
