@@ -27,6 +27,9 @@ class FeaturesPage extends Component {
 
     return (
       <div className="featurepage-root">
+        <div className="container">
+          <h3>The Telegram experience, handcrafted for Windows 10.</h3>
+        </div>
       {featureComponents}
       </div>
     );

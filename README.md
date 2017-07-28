@@ -44,7 +44,7 @@ See the [Releases section of this repo](https://github.com/UnigramDev/unigram.me
 - <https://twitter.com/matei_dev>
 
 ## Credits
-- [Jakub Steplowski](https://www.behance.net/jakubsteplowski) for the the mockups: [Lumia 950](https://www.behance.net/gallery/34545883/Microsoft-Lumia-950-Flat-Mockup-PSD-(v10)), [HP Elite X3](https://www.behance.net/gallery/38726153/HP-Elite-x3-Mockup-PSD).
+- [Jakub Steplowski](https://www.behance.net/jakubsteplowski) for the device mockups: [Lumia 950](https://www.behance.net/gallery/34545883/Microsoft-Lumia-950-Flat-Mockup-PSD-(v10)), [HP Elite X3](https://www.behance.net/gallery/38726153/HP-Elite-x3-Mockup-PSD), [Surface Laptop](https://www.behance.net/gallery/52220853/Microsoft-Surface-Laptop-Flat-Mockup-PSD).
 - [Compressor.io](https://compressor.io/) for lossless image compression.
 - [Scott Dorman](https://github.com/scottdorman) for the [MDL2 Icons](https://github.com/scottdorman/mdl2-icons).
 

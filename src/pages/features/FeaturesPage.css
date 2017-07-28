@@ -2,3 +2,9 @@
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
+.featurepage-root h3 {
+  padding-top: 20px;
+  padding-bottom: 48px;
+  text-align: center;
+}
