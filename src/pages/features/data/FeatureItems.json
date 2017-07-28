@@ -1,0 +1,37 @@
+[
+    {
+      "id": 0,
+      "title": "Calls",
+      "descr": "Make HD end-to-end encrypted calls anywhere in the world.",
+      "horizontal": true,
+      "pic": "img/screenshots/devices/calls-mobile.png"
+    },
+    {
+      "id": 1,
+      "title": "Share Media",
+      "descr": "Send pictures, videos, files and music up to 1.5GB each.",
+      "horizontal": false,
+      "pic": "img/screenshots/devices/media-desktop.png"
+    },
+    {
+      "id": 2,
+      "title": "Stickers & GIFs",
+      "descr": "Send colorful stickers and animated images like it's the 90s all over again!",
+      "horizontal": true,
+      "pic": "img/screenshots/devices/stickers-gifs-mobile.png"
+    },
+    {
+      "id": 3,
+      "title": "The more the marrier",
+      "descr": "Join and create groups and supergroups with your friends for up to 10,000 members with powerful admin tools. Channels are also a great idea for large audiences.",
+      "horizontal": false,
+      "pic": "img/screenshots/devices/multi-desktop.png"
+    },
+    {
+      "id": 4,
+      "title": "BOTs",
+      "descr": "Third-party services that run inside your chat, useful for all kind of needs: games, pictures, news, tools.",
+      "horizontal": true,
+      "pic": "img/screenshots/devices/bots-mobile.png"
+    }
+]

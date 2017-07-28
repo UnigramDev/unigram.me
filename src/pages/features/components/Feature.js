@@ -22,12 +22,12 @@ class Feature extends Component {
       <div className="feature-root">
         <div className="container">
           <div className="row">
-          <div className={ this.props.horizontal ? this.textHoriz : this.textVerti }>
-            <h2>{this.props.title}</h2>
-            <div className="sh2">{this.props.descr}</div>
+          <div className={ this.props.value.horizontal ? this.textHoriz : this.textVerti }>
+            <h2>{this.props.value.title}</h2>
+            <div className="sh2">{this.props.value.descr}</div>
           </div>
-          <div className={ this.props.horizontal ? this.devHoriz : this.devVerti }>
-            <img src={this.props.pic}/>
+          <div className={ this.props.value.horizontal ? this.devHoriz : this.devVerti }>
+            <img src={this.props.value.pic} alt="device"/>
           </div>
           </div>
         </div>
