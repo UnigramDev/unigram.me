@@ -44,7 +44,7 @@ class FeaturesPage extends Component {
  */
 function initFeatures() {
   var features = [];
-  var data = require('../common/data/FeatureItems.json');
+  var data = require('../common/data/Features.json');
   for(var i = 0; i < data.length; i++) {
     var featureJSON = data[i];
     features.push(new FeatureData(featureJSON.id,

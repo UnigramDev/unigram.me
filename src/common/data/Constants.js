@@ -33,12 +33,10 @@ export const githubAppDevManLink = githubAppRepoLink + "/wiki/Developer-Manual:-
 export const githubWebRepoLink = githubOrgLink + "/unigram.me";
 export const githubWebLicenseLink = githubWebRepoLink + "/blob/v2/LICENSE";
 export const githubWebIssueLink = githubWebRepoLink + "/issues";
+export const mateiGithubLink = "https://github.com/mateiradu";
 
 /* Other external links. */
 export const behanceLink = "https://www.behance.net/gallery/37507573/Unigram-for-Windows-10-Mobile";
-
-/* Team links. */
-export const mateiGithubLink = "https://github.com/mateiradu";
 
 /* Privacy. */
 export const privacyUpdate = "June 2017";

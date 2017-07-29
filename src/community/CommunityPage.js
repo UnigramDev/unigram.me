@@ -114,7 +114,7 @@ const CommunityPage = () => (
 
 function initMembers() {
   var members = [];
-  var data = require('../common/data/TeamMembers.json');
+  var data = require('../common/data/Team.json');
   for(var i = 0; i < data.length; i++) {
     var memberJSON = data[i];
     members.push(new TeamMemberData(memberJSON.id,

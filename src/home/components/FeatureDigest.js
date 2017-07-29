@@ -53,7 +53,7 @@ class FeatureDigest extends Component {
  */
 function initFeatures() {
   var features = [];
-  var data = require('../../common/data/FeatureDigestItems.json');
+  var data = require('../../common/data/FeatureDigests.json');
   for(var i = 0; i < data.length; i++) {
     var featureJSON = data[i];
     features.push(new FeatureDigestData(featureJSON.id,
