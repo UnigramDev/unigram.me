@@ -27,7 +27,7 @@
 }
 
 @media (max-width: 992px) {
-  .aboutdigest-text .btn {
+  .aboutdigest-text {
     text-align: center;
   }
 }

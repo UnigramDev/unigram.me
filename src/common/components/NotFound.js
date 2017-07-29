@@ -23,7 +23,7 @@ const NotFound = () => (
           <p>
             Whatever you're looking for is not here.
           </p>
-          <Link className="btn btn-primary" to={'/'}>Back to homepage</Link>
+          <Link className="btn btn-primary" to={'/'}>Back to homepage <i className="mdl2 mdl2-scroll-chevron-right-bold-legacy" aria-hidden="true"></i></Link>
         </div>
       </div>
     </div>
