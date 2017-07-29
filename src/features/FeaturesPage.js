@@ -69,7 +69,7 @@ class FeaturesPage extends Component {
         </div>
         {this.features}
       </div>
-    );
+    )
   }
 }
 
