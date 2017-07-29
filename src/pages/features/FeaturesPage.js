@@ -51,7 +51,8 @@ function initFeatures() {
                                         featureJSON.title, 
                                         featureJSON.descr,
                                         featureJSON.horizontal, 
-                                        featureJSON.pic));
+                                        featureJSON.pic,
+                                        featureJSON.anchor));
   }
   return features;
 }

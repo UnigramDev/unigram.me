@@ -3,36 +3,36 @@
       "id": 0,
       "title": "Calls",
       "descr": "Make HD end-to-end encrypted calls anywhere in the world.",
-      "link": "#"
+      "link": "/features#calls"
     },
     {
       "id": 1,
-      "title": "Photos and Videos",
+      "title": "Medias",
       "descr": "Snap, record and share your best moments or make a quick video message.",
-      "link": "#"
+      "link": "/features#media"
     },
     {
       "id": 2,
       "title": "Stickers",
       "descr": "Because sometimes there is no better way to express how you feel.",
-      "link": "#"
+      "link": "/features#stickers-gifs"
     },
     {
       "id": 3,
       "title": "Groups",
       "descr": "Chat, organize and coordinate with multiple contacts with Groups up to 5000 members.",
-      "link": "#"
+      "link": "/features#groups-channels"
     },
     {
       "id": 4,
       "title": "Files",
       "descr": "Send any type of file up to 1.5GB each.",
-      "link": "#"
+      "link": "/features#media"
     },
     {
       "id": 5,
       "title": "GIFs",
       "descr": " Send animated images like it's the 90s!",
-      "link": "#"
+      "link": "/features#stickers-gifs"
     }
 ]

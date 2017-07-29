@@ -1,9 +1,9 @@
 .feature-root {
-  padding-top: 32px;
+  padding-top: 60px;
   padding-bottom: 32px;
 }
 .feature-root img {
-  max-height: 600px;
+  max-height: 90vh;
   max-width: 100%;
 }
 

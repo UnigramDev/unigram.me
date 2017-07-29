@@ -12,12 +12,13 @@
  */
 class FeatureData {
 
-    constructor(id, title, descr, horizontal, pic) {
+    constructor(id, title, descr, horizontal, pic, anchor) {
         this.id = id;
         this.title = title; 
         this.descr = descr;
         this.horizontal = horizontal;
         this.pic = pic;
+        this.anchor = anchor;
     }
 }
 

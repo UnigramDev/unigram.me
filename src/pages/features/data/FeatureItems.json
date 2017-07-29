@@ -4,34 +4,39 @@
       "title": "Voice Calls",
       "horizontal": true,
       "descr": "Call your friends and family anywhere in the world, freely and securely thanks to end-to-end encryption. Calling uses your phone’s Internet connection rather than your cellular plan’s voice minutes. Data charges may apply.",
-      "pic": "img/screenshots/devices/calls-mobile.png"
+      "pic": "img/screenshots/devices/calls-mobile.png",
+      "anchor": "calls"
     },
     {
       "id": 1,
       "title": "Share Media",
       "descr": "Send pictures, videos, documents and music, without any limits on their type and size. No need to manually backup your chat history and files - everything will be securely stored in the Telegram cloud for as long as you need it.",
       "horizontal": false,
-      "pic": "img/screenshots/devices/media-desktop.png"
+      "pic": "img/screenshots/devices/media-desktop.png",
+      "anchor": "media"
     },
     {
       "id": 2,
       "title": "Stickers & GIFs",
       "descr": "Send lovely, goofy, adorable, weird and expressive stickers to say just about anything or send GIFs like it's the 90s all over again!",
       "horizontal": true,
-      "pic": "img/screenshots/devices/stickers-gifs-mobile.png"
+      "pic": "img/screenshots/devices/stickers-gifs-mobile.png",
+      "anchor": "stickers-gifs"
     },
     {
       "id": 3,
       "title": "The more the marrier",
       "descr": "Create group chats for up to 10,000 members with powerful fine grained admin tools. Broadcast public messages to even larger audiences with Channels.",
       "horizontal": false,
-      "pic": "img/screenshots/devices/multi-desktop.png"
+      "pic": "img/screenshots/devices/multi-desktop.png",
+      "anchor": "groups-channels"
     },
     {
       "id": 4,
       "title": "Bots",
       "descr": "Access third-party services directly in Unigram with bots. They will provide many types of services – polls, news, games, integrations, e-butlers or cat images. Any dream can come true with bots.",
       "horizontal": true,
-      "pic": "img/screenshots/devices/bots-mobile.png"
+      "pic": "img/screenshots/devices/bots-mobile.png",
+      "anchor": "bots"
     }
 ]

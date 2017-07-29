@@ -19,7 +19,7 @@ class Feature extends Component {
 
   render() {
     return (
-      <div className="feature-root">
+      <div className="feature-root" id={this.props.value.anchor}>
         <div className="container">
           <div className="row">
           <div className={ this.props.value.horizontal ? this.textHoriz : this.textVerti }>
