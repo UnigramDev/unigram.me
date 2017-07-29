@@ -10,10 +10,10 @@
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 import React from 'react';
-import Hero from '../../common/components/Hero';
-import * as Const from '../../common/data/Constants';
+import Hero from '../common/components/Hero';
+import * as Const from '../common/data/Constants';
 import TeamMember from './components/TeamMember';
-import TeamMemberData from './data/TeamMemberData';
+import TeamMemberData from './TeamMemberData';
 import './CommunityPage.css';
 
 /* First part of the Hero component: text and buttons. */
@@ -114,7 +114,7 @@ const CommunityPage = () => (
 
 function initMembers() {
   var members = [];
-  var data = require('./data/TeamMembers.json');
+  var data = require('../common/data/TeamMembers.json');
   for(var i = 0; i < data.length; i++) {
     var memberJSON = data[i];
     members.push(new TeamMemberData(memberJSON.id,

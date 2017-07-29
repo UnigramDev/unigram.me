@@ -22,12 +22,12 @@ import Footer from './common/components/Footer';
 import ScrollToTop from './common/components/ScrollToTop';
 import NotFound from './common/components/NotFound';
 /* Pages. */
-import HomePage from './pages/home/HomePage';
-import FeaturesPage from './pages/features/FeaturesPage';
-import PrivacyPage from './pages/privacy/PrivacyPage';
-import SupportPage from './pages/support/SupportPage';
-import FaqPage from './pages/faq/FaqPage';
-import CommunityPage from './pages/community/CommunityPage';
+import HomePage from './home/HomePage';
+import FeaturesPage from './features/FeaturesPage';
+import PrivacyPage from './privacy/PrivacyPage';
+import SupportPage from './support/SupportPage';
+import FaqPage from './faq/FaqPage';
+import CommunityPage from './community/CommunityPage';
 /* Navigation. */
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 

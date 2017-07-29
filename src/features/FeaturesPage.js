@@ -12,7 +12,7 @@
  */
 import React, { Component } from 'react'
 import Feature from './components/Feature'
-import FeatureData from "./data/FeatureData"
+import FeatureData from "./FeatureData"
 import './FeaturesPage.css'
 
 class FeaturesPage extends Component {
@@ -44,7 +44,7 @@ class FeaturesPage extends Component {
  */
 function initFeatures() {
   var features = [];
-  var data = require('./data/FeatureItems.json');
+  var data = require('../common/data/FeatureItems.json');
   for(var i = 0; i < data.length; i++) {
     var featureJSON = data[i];
     features.push(new FeatureData(featureJSON.id,

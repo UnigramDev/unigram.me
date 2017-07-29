@@ -11,11 +11,11 @@
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 import React, { Component } from 'react';
-import Hero from '../../common/components/Hero';
+import Hero from '../common/components/Hero';
 import AboutDigest from '../home/components/AboutDigest';
 import FeatureDigest from '../home/components/FeatureDigest';
 import SupportDigest from '../home/components/SupportDigest';
-import * as Const from '../../common/data/Constants';
+import * as Const from '../common/data/Constants';
 
 
 /* First part of the Hero component: text and buttons. */
