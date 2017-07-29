@@ -3,7 +3,8 @@
   padding-bottom: 32px;
 }
 .feature-root img {
-  max-height: 90vh;
+  min-height: 400px;
+  max-height: 85vh;
   max-width: 100%;
 }
 
