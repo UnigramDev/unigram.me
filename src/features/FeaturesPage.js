@@ -8,53 +8,69 @@
 /**
  * @file Features page. It showcases the various features provided
  * by the app.
+ * 
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 import React, { Component } from 'react'
 import Feature from './components/Feature'
-import FeatureData from "./FeatureData"
+import FeatureData from './components/FeatureData'
 import './FeaturesPage.css'
 
+/**
+ * @class Feature page main component. It is responsable for displaying 
+ * the most relevant app features.
+ *
+ * @see {@link features/components/Feature.js|Feature}
+ * @see {@link features/components/FeatureData.js|FeatureData}
+ * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
+ */
 class FeaturesPage extends Component {
-    
+  constructor(props) {
+    super(props)
 
-  render() {
-    var features = initFeatures();
-    // Recursively create Project components.
-    var featureComponents = features.map(feature =>
-      <Feature value={feature} key={feature.id}/>
+    /**  @member {Object[]} */
+    this.features = this.initFeatures()
+  }
+
+  /**
+   * Initializes the Feature components complete of data.
+   * @see {@link features/components/Feature.js|Feature}
+   * @return {Object[]} features[] - Array of Feature components.
+   */
+  initFeatures() {
+    return this.initFeaturesData().map(data =>
+      <Feature feature={data} key={data.id}/>
     )
+  }
 
+  /**
+  * Initializes the Feature data array.
+  * It collects the data from a JSON file.
+  * 
+  * @see {@link features/components/FeatureData.js|FeatureData}
+  * @returns {Object[]} featuresData - Array of FeatureData.
+  */
+  initFeaturesData() {
+    var featuresData = []
+    var rawData = require('../common/data/Features.json')
+    for(var feature of rawData) {
+      featuresData.push(new FeatureData(feature.id, feature.title, feature.descr,
+                                        feature.horizontal, feature.pic, feature.anchor)
+      )
+    }
+    return featuresData
+  }
+  
+  render() {
     return (
       <div className="featurepage-root">
         <div className="container">
           <h3>The Telegram experience, handcrafted for Windows 10.</h3>
         </div>
-      {featureComponents}
+        {this.features}
       </div>
     );
   }
 }
 
-/**
- * Initialized the Feature Digest array.
- * It collects the data from a local JSON file. 
- * 
- * @returns {Array} collection of Features.
- */
-function initFeatures() {
-  var features = [];
-  var data = require('../common/data/Features.json');
-  for(var i = 0; i < data.length; i++) {
-    var featureJSON = data[i];
-    features.push(new FeatureData(featureJSON.id,
-                                        featureJSON.title, 
-                                        featureJSON.descr,
-                                        featureJSON.horizontal, 
-                                        featureJSON.pic,
-                                        featureJSON.anchor));
-  }
-  return features;
-}
-
-export default FeaturesPage;
+export default FeaturesPage
