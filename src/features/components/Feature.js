@@ -4,7 +4,6 @@
  * Licensed under MIT 
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
-
 import React, { Component } from 'react'
 import './Feature.css'
 

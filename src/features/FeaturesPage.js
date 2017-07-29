@@ -7,7 +7,7 @@
 
 /**
  * @file Features page. It showcases the various features provided
- * by the app.
+ * by the app to the user.
  * 
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
