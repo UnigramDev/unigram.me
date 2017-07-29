@@ -6,11 +6,9 @@
  */
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Feature from '../Feature'
-import FeatureData from "../FeatureData"
+import FeaturesPage from "../FeaturesPage"
 
 it('renders without crashing', () => {
   const div = document.createElement('div')
-  var data = new FeatureData(0, "title", true, "description", "path to picture", "anchor")
-  ReactDOM.render(<Feature feature={data}/>, div)
+  ReactDOM.render(<FeaturesPage/>, div)
 });

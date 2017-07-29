@@ -1,7 +1,15 @@
+/*
+ * Unigram Website
+ * Copyright © 2016-2017 Unigram <team@unigram.me>
+ * Licensed under MIT 
+ * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
+ */
+ 
 .feature-root {
   padding-top: 60px;
   padding-bottom: 32px;
 }
+
 .feature-root img {
   min-height: 400px;
   max-height: 85vh;
@@ -30,6 +38,7 @@
   .feature-root {
     text-align: center;
   }
+  
   .feature-device-horiz {
     margin-top: 32px;
     text-align: center;
