@@ -6,7 +6,7 @@
  */
 .featuredigest-feature {
   height: 194px;
-  padding: 24px;
+  padding: 20px;
   margin-bottom: 24px;
   color: #292b2c;
   text-decoration: none;
@@ -17,7 +17,7 @@
 }
 
 .featuredigest-feature-title {
-  height: 60px;
+  height: 48px;
   font-size: 24px;
 }
 

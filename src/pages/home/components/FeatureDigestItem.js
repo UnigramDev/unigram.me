@@ -17,7 +17,7 @@ import "./FeatureDigestItem.css";
 class FeatureDigestItem extends Component {
   render() {
     return (
-      <a className="col-sm-6 col-md-4 col-lg-3" href={this.props.value.link}>
+      <a className="col-6 col-sm-6 col-md-4 col-lg-3" href={this.props.value.link}>
         <div className="featuredigest-feature">
           <div className="featuredigest-feature-title">
             {this.props.value.title}
