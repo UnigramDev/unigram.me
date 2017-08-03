@@ -14,10 +14,10 @@
 }
 
 .support-logo img {
+  width: 70%;
   margin-right: 32px;
   padding-left: 24px;
   padding-right: 24px;
-  width: 70%;
   border-radius: 50%;
 }
 
@@ -52,9 +52,9 @@
   }
 
   .support-logo img {
-    visibility: collapse;
     height: 0;
     margin-right: 0;
+    visibility: collapse;
   }
 
   .support-more .col-12 {

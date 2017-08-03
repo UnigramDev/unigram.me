@@ -8,9 +8,11 @@
   padding-top: 0;
   padding-bottom: 40px;
 }
+
 .community-root ul {
   list-style-type: square;
 }
+
 .community-root li {
   padding-bottom: 16px;
 }

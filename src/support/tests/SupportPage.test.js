@@ -4,12 +4,12 @@
  * Licensed under MIT 
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
-import SupportPage from '../SupportPage';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
+import SupportPage from '../SupportPage'
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<Router><SupportPage /></Router>, div);
-});
+  const div = document.createElement('div')
+  ReactDOM.render(<Router><SupportPage /></Router>, div)
+})
