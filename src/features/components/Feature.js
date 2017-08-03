@@ -11,6 +11,8 @@ import './Feature.css'
  * @class Single feature component. It describes an app feature with an image
  * and some text.
  * 
+ * @memberof FeaturePageSpace
+ * @extends React.Component
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 class Feature extends Component {

@@ -8,17 +8,19 @@
  /**
  * @class Represents a Feature with all the basic info.
  * 
+ * @memberof FeaturePageSpace
+ * @see {@link features/components/Feature.js|Feature}
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 class FeatureData {
-    constructor(id, title, descr, horizontal, pic, anchor) {
-        this.id = id
-        this.title = title 
-        this.descr = descr
-        this.horizontal = horizontal
-        this.pic = pic
-        this.anchor = anchor
-    }
+  constructor(id, title, descr, horizontal, pic, anchor) {
+    this.id = id
+    this.title = title 
+    this.descr = descr
+    this.horizontal = horizontal
+    this.pic = pic
+    this.anchor = anchor
+  }
 }
 
 export default FeatureData

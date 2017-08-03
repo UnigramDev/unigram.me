@@ -9,6 +9,7 @@
  * @file Features page. It showcases the various features provided
  * by the app to the user.
  * 
+ * @namespace FeaturePageSpace
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 import React, { Component } from 'react'
@@ -20,8 +21,10 @@ import './FeaturesPage.css'
  * @class Feature page main component. It is responsable for displaying 
  * the most relevant app features.
  *
+ * @memberof FeaturePageSpace
  * @see {@link features/components/Feature.js|Feature}
  * @see {@link features/components/FeatureData.js|FeatureData}
+ * @extends React.Component
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 class FeaturesPage extends Component {
@@ -55,8 +58,7 @@ class FeaturesPage extends Component {
     var rawData = require('../common/data/Features.json')
     for(var feature of rawData) {
       featuresData.push(new FeatureData(feature.id, feature.title, feature.descr,
-                                        feature.horizontal, feature.pic, feature.anchor)
-      )
+                                        feature.horizontal, feature.pic, feature.anchor))
     }
     return featuresData
   }

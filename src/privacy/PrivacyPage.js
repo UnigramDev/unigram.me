@@ -17,6 +17,7 @@ import './PrivacyPage.css'
  * @class Privacy page main component. It is responsable for displaying 
  * the user's privacy policy details.
  *
+ * @extends React.Component
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 class PrivacyPage extends Component {
