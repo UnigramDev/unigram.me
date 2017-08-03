@@ -11,12 +11,12 @@
  * @namespace CommunityPageSpace
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
-import React, { Component } from 'react';
-import Hero from '../common/components/Hero';
-import * as Const from '../common/data/Constants';
-import CommunityMember from './components/CommunityMember';
-import CommunityMemberData from './components/CommunityMemberData';
-import './CommunityPage.css';
+import React, { Component } from 'react'
+import Hero from '../common/components/Hero'
+import * as Const from '../common/data/Constants'
+import CommunityMember from './components/CommunityMember'
+import CommunityMemberData from './components/CommunityMemberData'
+import './CommunityPage.css'
 
 /**
  * @class Community page main component. It is responsable for displaying 
