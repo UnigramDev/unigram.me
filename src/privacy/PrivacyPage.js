@@ -6,7 +6,9 @@
  */
 
 /**
- * @file Privacy page. It displays the privacy policy to the user.
+ * Privacy page. It displays the privacy policy to the user.
+ * 
+ * @namespace PrivacyPageSpace
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 import React, {Component } from 'react'
@@ -17,6 +19,7 @@ import './PrivacyPage.css'
  * @class Privacy page main component. It is responsable for displaying 
  * the user's privacy policy details.
  *
+ * @memberof PrivacyPageSpace
  * @extends React.Component
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */

@@ -4,16 +4,19 @@
  * Licensed under MIT 
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
+import React, { Component } from 'react';
+import "./FeatureDigestItem.css";
 
 /**
- * @file A brief feature description. It should only be used by FeatureDigest in the home page.
+ * @class A brief feature description. It should only be used by 
+ * FeatureDigest in the home page.
+ * 
+ * @memberof HomePageSpace
+ * @extends React.Component
  * @see {@link FeatureDigest.js|FeatureDigest}
  * @see {@link index.js|index}
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
-import React, { Component } from 'react';
-import "./FeatureDigestItem.css";
-
 class FeatureDigestItem extends Component {
   render() {
     return (

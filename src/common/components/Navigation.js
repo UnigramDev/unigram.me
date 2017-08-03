@@ -4,18 +4,18 @@
  * Licensed under MIT 
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
-
-/**
- * @file Navigation bar component.
- * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
- */
 import React, { Component } from 'react'
 import * as Const from '../data/Constants'
 import { Link } from 'react-router-dom'
 import onClickOutside from 'react-onclickoutside'
 import './Navigation.css'
 
-
+/**
+ * @class Navigation bar component.
+ * 
+ * @extends React.Component
+ * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
+ */
 class Navigation extends Component {
   constructor(props) {
     super(props)
@@ -24,19 +24,19 @@ class Navigation extends Component {
     this.hideClass = 'navbar-collapse collapse'
   }
 
-  /* Close the menu when the user clicks outside of the menu. */
+  /** 
+   * Closes the menu when the user clicks outside of the menu.
+   */
   handleClickOutside = evt => {
     this.toggleMenu(false)
   }
 
   /**
    * Toggles the menu visibility on small screen sizes.
-   * @param {boolean} isMenuButton - indicates if the clicked element is the menu
-   * button or not.
+   * @param {boolean} isMenuButton - indicates if the clicked element is 
+   * the menu button or not.
    */
   toggleMenu(isMenuButton) {
-    /* If the caller is the menu button use on/off behaviour,
-       else always close the menu. */
     if(isMenuButton) {
       const currentState = this.state.active
       this.setState({ active: !currentState })

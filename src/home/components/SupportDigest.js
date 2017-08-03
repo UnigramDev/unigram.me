@@ -4,17 +4,19 @@
  * Licensed under MIT 
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
-
-/**
- * @file A simple button that will redirect to the support page. It should only be used in the 
- * home page.
- * @see {@link index.js|index}
- * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
- */
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'; 
 import './SupportDigest.css';
 
+/**
+ * @class A simple button that will redirect to the support page. It should
+ * only be used in the home page.
+ * 
+ * @memberof HomePageSpace
+ * @extends React.Component
+ * @see {@link index.js|index}
+ * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
+ */
 class SupportDigest extends Component {
   render() {
     return (

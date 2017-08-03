@@ -8,6 +8,7 @@
 /**
  * @file Home page of the site. Using React Router to provide page navigation
  * and meaningful URLs.
+ * 
  * @see {@link https://github.com/ReactTraining/react-router|React Router}
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */

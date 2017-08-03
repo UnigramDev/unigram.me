@@ -4,18 +4,21 @@
  * Licensed under MIT 
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
-
-/**
- * @file An incomplete display of app features. It should be used only in the home page.
- * @see {@link index.js|index}
- * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
- */
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import FeatureDigestData from "../FeatureDigestData";
 import FeatureDigestItem from "./FeatureDigestItem";
 import './FeatureDigest.css';
 
+/**
+ * @class An incomplete display of app features. It should be used 
+ * only in the home page.
+ * 
+ * @memberof HomePageSpace
+ * @extends React.Component
+ * @see {@link index.js|index}
+ * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
+ */
 class FeatureDigest extends Component {
   render() {
     var features = initFeatures();

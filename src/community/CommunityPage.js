@@ -6,8 +6,7 @@
  */
 
 /**
- * @file Community page. It showcases the community aspect of
- * the project.
+ * Community page. It showcases the community aspect of the project.
  *  
  * @namespace CommunityPageSpace
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>

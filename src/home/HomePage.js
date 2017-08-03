@@ -6,16 +6,18 @@
  */
 
 /**
- * @file Home page. It displays all the presentation components like
+ * Home page. It displays all the presentation components like
  * the digest ones and Hero.
+ * 
+ * @namespace HomePageSpace
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
-import React, { Component } from 'react';
-import Hero from '../common/components/Hero';
-import AboutDigest from '../home/components/AboutDigest';
-import FeatureDigest from '../home/components/FeatureDigest';
-import SupportDigest from '../home/components/SupportDigest';
-import * as Const from '../common/data/Constants';
+import React, { Component } from 'react'
+import Hero from '../common/components/Hero'
+import AboutDigest from '../home/components/AboutDigest'
+import FeatureDigest from '../home/components/FeatureDigest'
+import SupportDigest from '../home/components/SupportDigest'
+import * as Const from '../common/data/Constants'
 
 
 /* First part of the Hero component: text and buttons. */
@@ -36,6 +38,14 @@ const hero2 = (
   <img src="img/Laptop_Mobile_Combo.png" alt=""/>
 );
 
+/**
+ * @class Home page. It displays all the presentation components like
+ * the digest ones and Hero.
+ * 
+ * @memberof HomePageSpace
+ * @extends React.Component
+ * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
+ */
 class HomePage extends Component {
   
   render() {
@@ -46,8 +56,8 @@ class HomePage extends Component {
         <FeatureDigest />
         <SupportDigest />
       </div>
-    );
+    )
   }
 }
 
-export default HomePage;
+export default HomePage

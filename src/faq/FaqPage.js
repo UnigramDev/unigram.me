@@ -6,9 +6,10 @@
  */
 
 /**
- * @file Frequently Asked Questions page. Provides a set of Q&As
+ * Frequently Asked Questions page. Provides a set of Q&As
  * to the user.
  * 
+ * @namespace FaqPageSpace
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 import React, {Component } from 'react'
@@ -20,6 +21,8 @@ import './FaqPage.css'
  * @class FAQ main component. It is responsable for displaying 
  * the Q&As to the user.
  *
+ * @memberof FaqPageSpace
+ * @extends React.Component
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 class FaqPage extends Component {

@@ -6,14 +6,24 @@
  */
 
 /**
- * @file Support page. It displays options on how to contact the developers
+ * Support page. It displays options on how to contact the developers
  * for support.
+ * 
+ * @namespace SupportPageSpace
  * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
  */
 import React from 'react';
 import * as Const from '../common/data/Constants';
 import './SupportPage.css';
 
+/**
+ * @class Support page. It displays options on how to contact the developers
+ * for support.
+ * 
+ * @memberof SupportPageSpace
+ * @extends React.Component
+ * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
+ */
 const SupportPage = () => (
   <div className="main">
     <div className="support-root">

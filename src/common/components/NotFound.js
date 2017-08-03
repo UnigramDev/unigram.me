@@ -4,15 +4,16 @@
  * Licensed under MIT 
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
-
-/**
- * @file Component to display a 404 message.
- * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
- */
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './NotFound.css'
 
+/**
+ * @class Component to display a 404 message.
+ * 
+ * @extends React.Component
+ * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
+ */
 const NotFound = () => (
   <div className="main">
     <div className="notfound-root">

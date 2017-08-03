@@ -4,14 +4,16 @@
  * Licensed under MIT 
  * (https://github.com/UnigramDev/unigram.me/blob/master/LICENSE)
  */
-
-/**
- * @file Component that scrolls the page to top when navigating with react-router.
- * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
- */
 import React, { Component } from 'react'
 import { withRouter } from 'react-router-dom'
 
+/**
+ * @class Component that scrolls the page to top when navigating with 
+ * react-router.
+ * 
+ * @extends React.Component
+ * @author Matei Bogdan Radu <matei.radu.92@gmail.com>
+ */
 class ScrollToTop extends Component {
   componentDidUpdate(prevProps) {
     if (this.props.location !== prevProps.location) {
